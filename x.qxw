@@ -1366,8 +1366,8 @@
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
-   <Width>30</Width>
-   <Height>50</Height>
+   <Width>14</Width>
+   <Height>14</Height>
    <Rotation>0</Rotation>
    <StartOffset>0</StartOffset>
    <IsRelative>0</IsRelative>
