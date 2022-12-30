@@ -371,7 +371,7 @@
    <FixtureVal ID="1">9,255,10,255,11,255</FixtureVal>
   </Function>
   <Function ID="16" Type="Chaser" Name="16 Colours chaser - Wash-MovingHead" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="3319"/>
+   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -491,7 +491,7 @@
    <FixtureVal ID="6">4,230</FixtureVal>
   </Function>
   <Function ID="34" Type="Chaser" Name="Colour macros chaser - LEDSP 60W" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="3321"/>
+   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -616,7 +616,7 @@
    <FixtureVal ID="6">5,238</FixtureVal>
   </Function>
   <Function ID="52" Type="Chaser" Name="Gobo macros chaser - LEDSP 60W" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="3321"/>
+   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -750,7 +750,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="19"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -916,7 +916,7 @@
    <FixtureVal ID="10">1,255,2,255,3,255</FixtureVal>
   </Function>
   <Function ID="80" Type="Chaser" Name="16 Colours chaser - LED Flat Par 7x18W RGBWA+UV" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="19"/>
+   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1106,7 +1106,7 @@
     <StartOffset>315</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="7540"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="2004"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -1285,7 +1285,7 @@
     <StartOffset>315</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3770"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -1536,7 +1536,7 @@
     <StartOffset>315</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3770"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -1946,7 +1946,7 @@
    <FixtureVal ID="15">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="163" Type="Chaser" Name="16 Colours chaser - LedBars_v2" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="19"/>
+   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2024,7 +2024,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3770"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -2102,7 +2102,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3770"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -2464,7 +2464,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="19"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -2729,7 +2729,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">3</Channel>
      </Level>
      <Playback>
@@ -2747,7 +2747,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="3">3</Channel>
      </Level>
      <Playback>
@@ -2765,7 +2765,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="11">3</Channel>
      </Level>
      <Playback>
@@ -2783,7 +2783,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">3</Channel>
      </Level>
      <Playback>
@@ -2801,7 +2801,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="13">3</Channel>
      </Level>
      <Playback>
@@ -2819,7 +2819,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="14">3</Channel>
      </Level>
      <Playback>
@@ -2837,7 +2837,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="15">3</Channel>
      </Level>
      <Playback>
@@ -2855,7 +2855,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="16">3</Channel>
      </Level>
      <Playback>
@@ -3001,7 +3001,7 @@
     <Tap>
      <Input Universe="0" Channel="1"/>
     </Tap>
-    <Time>3321</Time>
+    <Time>1000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">165</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">114</Function>
@@ -3088,7 +3088,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="176">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">4</Channel>
      <Channel Fixture="3">4</Channel>
      <Channel Fixture="11">4</Channel>
@@ -3136,7 +3136,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="79">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">5</Channel>
      <Channel Fixture="3">5</Channel>
      <Channel Fixture="11">5</Channel>
@@ -3255,7 +3255,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="64">
       <Channel Fixture="17">0</Channel>
      </Level>
      <Playback>
@@ -3411,7 +3411,7 @@
     <Tap>
      <Input Universe="0" Channel="1"/>
     </Tap>
-    <Time>19</Time>
+    <Time>1000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">57</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">170</Function>
@@ -3430,8 +3430,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="131"/>
-    <Tilt Position="130"/>
+    <Pan Position="127"/>
+    <Tilt Position="127"/>
    </XYPad>
    <XYPad Caption="XY Pad" ID="63" InvertedAppearance="0">
     <WindowState Visible="True" X="215" Y="395" Width="200" Height="220"/>
@@ -3616,7 +3616,7 @@
     </Appearance>
     <Visibility>124</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Time>3319</Time>
+    <Time>1000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">16</Function>
    </SpeedDial>
@@ -3881,8 +3881,8 @@
       <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
       <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
      </Fixture>
-     <Pan Position="101"/>
-     <Tilt Position="20"/>
+     <Pan Position="127"/>
+     <Tilt Position="127"/>
      <Preset ID="16">
       <Type>Position</Type>
       <Name>TOP</Name>
@@ -4094,7 +4094,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="246">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="7">6</Channel>
       <Channel Fixture="8">6</Channel>
       <Channel Fixture="9">6</Channel>
@@ -4423,7 +4423,7 @@
     </Appearance>
     <Visibility>124</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Time>3321</Time>
+    <Time>1000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">52</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">34</Function>
@@ -4502,7 +4502,7 @@
     <Tap>
      <Input Universe="0" Channel="1"/>
     </Tap>
-    <Time>3321</Time>
+    <Time>1000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">163</Function>
    </SpeedDial>
@@ -4532,7 +4532,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="79">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">5</Channel>
      </Level>
      <Playback>
@@ -4550,7 +4550,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="79">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="3">5</Channel>
      </Level>
      <Playback>
@@ -4568,7 +4568,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="79">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="11">5</Channel>
      </Level>
      <Playback>
@@ -4586,7 +4586,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="79">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">5</Channel>
      </Level>
      <Playback>
@@ -4604,7 +4604,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="79">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="13">5</Channel>
      </Level>
      <Playback>
@@ -4622,7 +4622,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="79">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="14">5</Channel>
      </Level>
      <Playback>
@@ -4640,7 +4640,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="79">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="15">5</Channel>
      </Level>
      <Playback>
@@ -4658,7 +4658,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="79">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">5</Channel>
       <Channel Fixture="16">5</Channel>
      </Level>
@@ -7013,6 +7013,75 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </Frame>
+   <SoloFrame Caption="" ID="172">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4279571733</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="1640" Y="195" Width="120" Height="120"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="EFX Blue" ID="189" Icon="">
+     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279918516</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="166"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Green" ID="191" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4280722025</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="167"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Rainbow" ID="193" Icon="">
+     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="168"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Red" ID="194" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294901760</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="169"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
   </Frame>
   <Properties>
    <Size Width="1865" Height="1000"/>
