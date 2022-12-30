@@ -1,0 +1,3160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.6</Version>
+  <Author>Jakob Wasle</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Main" ID="0">
+    <Input Plugin="E1.31" UID="127.0.0.1" Line="1">
+     <PluginParameters multicast="0" ucastPort="5569" universe="1"/>
+    </Input>
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AB0K8ZGC)" Line="0">
+     <PluginParameters UniverseChannels="166"/>
+    </Output>
+   </Universe>
+   <Universe Name="Audio" ID="1">
+    <Input Plugin="HID" UID="None" Line="1"/>
+    <Output Plugin="E1.31" UID="127.0.0.1" Line="1">
+     <PluginParameters UniverseChannels="39" multicast="0" priority="100" transmitMode="Full" ucastIP="127.0.0.1" ucastPort="5568" universe="2"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 3" ID="2"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>Wash-MovingHead</Model>
+   <Mode>15 CH Mode</Mode>
+   <ID>0</ID>
+   <Name>Wash-MovingHead #1</Name>
+   <Universe>0</Universe>
+   <Address>136</Address>
+   <Channels>15</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>Wash-MovingHead</Model>
+   <Mode>15 CH Mode</Mode>
+   <ID>1</ID>
+   <Name>Wash-MovingHead #2</Name>
+   <Universe>0</Universe>
+   <Address>151</Address>
+   <Channels>15</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Lambda</Manufacturer>
+   <Model>LedBars_v2</Model>
+   <Mode>Simple</Mode>
+   <ID>2</ID>
+   <Name>LedBars_v2 #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Lambda</Manufacturer>
+   <Model>LedBars_v2</Model>
+   <Mode>Simple</Mode>
+   <ID>3</ID>
+   <Name>LedBars_v2 #2</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>LEDSP 60W</Model>
+   <Mode>Default</Mode>
+   <ID>4</ID>
+   <Name>LEDSP 60W #1</Name>
+   <Universe>0</Universe>
+   <Address>103</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>LEDSP 60W</Model>
+   <Mode>Default</Mode>
+   <ID>5</ID>
+   <Name>LEDSP 60W #2</Name>
+   <Universe>0</Universe>
+   <Address>114</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>LEDSP 60W</Model>
+   <Mode>Default</Mode>
+   <ID>6</ID>
+   <Name>LEDSP 60W #3</Name>
+   <Universe>0</Universe>
+   <Address>125</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 CH Mode</Mode>
+   <ID>7</ID>
+   <Name>LED Flat Par 7x18W RGBWA+UV #1</Name>
+   <Universe>0</Universe>
+   <Address>63</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 CH Mode</Mode>
+   <ID>8</ID>
+   <Name>LED Flat Par 7x18W RGBWA+UV #2</Name>
+   <Universe>0</Universe>
+   <Address>73</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 CH Mode</Mode>
+   <ID>9</ID>
+   <Name>LED Flat Par 7x18W RGBWA+UV #3</Name>
+   <Universe>0</Universe>
+   <Address>83</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 CH Mode</Mode>
+   <ID>10</ID>
+   <Name>LED Flat Par 7x18W RGBWA+UV #4</Name>
+   <Universe>0</Universe>
+   <Address>93</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Lambda</Manufacturer>
+   <Model>LedBars_v2</Model>
+   <Mode>Simple</Mode>
+   <ID>11</ID>
+   <Name>LedBars_v2 #3</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Lambda</Manufacturer>
+   <Model>LedBars_v2</Model>
+   <Mode>Simple</Mode>
+   <ID>12</ID>
+   <Name>LedBars_v2 #4</Name>
+   <Universe>0</Universe>
+   <Address>18</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Lambda</Manufacturer>
+   <Model>LedBars_v2</Model>
+   <Mode>Simple</Mode>
+   <ID>13</ID>
+   <Name>LedBars_v2 #5</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Lambda</Manufacturer>
+   <Model>LedBars_v2</Model>
+   <Mode>Simple</Mode>
+   <ID>14</ID>
+   <Name>LedBars_v2 #6</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Lambda</Manufacturer>
+   <Model>LedBars_v2</Model>
+   <Mode>Simple</Mode>
+   <ID>15</ID>
+   <Name>LedBars_v2 #7</Name>
+   <Universe>0</Universe>
+   <Address>36</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Lambda</Manufacturer>
+   <Model>LedBars_v2</Model>
+   <Mode>Simple</Mode>
+   <ID>16</ID>
+   <Name>LedBars_v2 #8</Name>
+   <Universe>0</Universe>
+   <Address>42</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>17</ID>
+   <Name>AudioMultiplier</Name>
+   <Universe>1</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>18</ID>
+   <Name>Selector:Dimmer</Name>
+   <Universe>1</Universe>
+   <Address>1</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>19</ID>
+   <Name>Selector:Pos</Name>
+   <Universe>1</Universe>
+   <Address>2</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>20</ID>
+   <Name>Selector:Val</Name>
+   <Universe>1</Universe>
+   <Address>3</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>30 Channel</Mode>
+   <ID>21</ID>
+   <Name>AudioFrequencies</Name>
+   <Universe>1</Universe>
+   <Address>9</Address>
+   <Channels>30</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>LED Flat Par</Name>
+   <Size X="4" Y="1"/>
+   <Head X="0" Y="0" Fixture="7">0</Head>
+   <Head X="1" Y="0" Fixture="8">0</Head>
+   <Head X="2" Y="0" Fixture="9">0</Head>
+   <Head X="3" Y="0" Fixture="10">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>LED_BAR</Name>
+   <Size X="8" Y="1"/>
+   <Head X="0" Y="0" Fixture="2">0</Head>
+   <Head X="1" Y="0" Fixture="3">0</Head>
+   <Head X="2" Y="0" Fixture="11">0</Head>
+   <Head X="3" Y="0" Fixture="12">0</Head>
+   <Head X="4" Y="0" Fixture="13">0</Head>
+   <Head X="5" Y="0" Fixture="14">0</Head>
+   <Head X="6" Y="0" Fixture="15">0</Head>
+   <Head X="7" Y="0" Fixture="16">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup ID="0" Name="RED" Value="0">0,9,1,9,2,0,3,0,7,1,8,1,9,1,10,1,11,0,12,0,13,0,14,0,15,0,16,0</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="GREEN" Value="0">0,10,1,10,2,1,3,1,7,2,8,2,9,2,10,2,11,1,12,1,13,1,14,1,15,1,16,1</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="BLUE" Value="0">0,11,1,11,2,2,3,2,7,3,8,3,9,3,10,3,11,2,12,2,13,2,14,2,15,2,16,2</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="WHITE" Value="0">0,12,1,12,7,4,8,4,9,4,10,4</ChannelsGroup>
+  <ChannelsGroup ID="4" Name="AMBER" Value="0">7,5,8,5,9,5,10,5</ChannelsGroup>
+  <ChannelsGroup ID="5" Name="UV" Value="0">7,6,8,6,9,6,10,6</ChannelsGroup>
+  <ChannelsGroup ID="6" Name="STROBE" Value="0">0,6,1,6,4,6,5,6,6,6,7,7,8,7,9,7,10,7</ChannelsGroup>
+  <ChannelsGroup ID="7" Name="BAR_RED" Value="0">2,0,3,0,11,0,12,0,13,0,14,0,15,0,16,0</ChannelsGroup>
+  <ChannelsGroup ID="8" Name="BAR_GREEN" Value="0">2,1,3,1,11,1,12,1,13,1,14,1,15,1,16,1</ChannelsGroup>
+  <ChannelsGroup ID="9" Name="BAR_BLUE" Value="0">2,2,3,2,11,2,12,2,13,2,14,2,15,2,16,2</ChannelsGroup>
+  <ChannelsGroup ID="10" Name="BAR_POS" Value="0">2,3,3,3,11,3,12,3,13,3,14,3,15,3,16,3</ChannelsGroup>
+  <ChannelsGroup ID="11" Name="BAR_VAL" Value="0">2,4,3,4,11,4,12,4,13,4,14,4,15,4,16,4</ChannelsGroup>
+  <Function ID="0" Type="Scene" Name="Scene Black - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="1">9,0,10,0,11,0</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="Scene Dark Blue - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,0,10,0,11,128</FixtureVal>
+   <FixtureVal ID="1">9,0,10,0,11,128</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="Scene Blue - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,0,10,0,11,255</FixtureVal>
+   <FixtureVal ID="1">9,0,10,0,11,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="Scene Dark Green - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,0,10,128,11,0</FixtureVal>
+   <FixtureVal ID="1">9,0,10,128,11,0</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="Scene Dark Cyan - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,0,10,128,11,128</FixtureVal>
+   <FixtureVal ID="1">9,0,10,128,11,128</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="Scene Green - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,0,10,255,11,0</FixtureVal>
+   <FixtureVal ID="1">9,0,10,255,11,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="Scene Cyan - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,0,10,255,11,255</FixtureVal>
+   <FixtureVal ID="1">9,0,10,255,11,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="Scene Dark Red - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,128,10,0,11,0</FixtureVal>
+   <FixtureVal ID="1">9,128,10,0,11,0</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="Scene Dark Magenta - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,128,10,0,11,128</FixtureVal>
+   <FixtureVal ID="1">9,128,10,0,11,128</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="Scene Dark Yellow - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,128,10,128,11,0</FixtureVal>
+   <FixtureVal ID="1">9,128,10,128,11,0</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="Scene Dark Gray - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,128,10,128,11,128</FixtureVal>
+   <FixtureVal ID="1">9,128,10,128,11,128</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="Scene Light Gray - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,192,10,192,11,192</FixtureVal>
+   <FixtureVal ID="1">9,192,10,192,11,192</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="Scene Red - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,255,10,0,11,0</FixtureVal>
+   <FixtureVal ID="1">9,255,10,0,11,0</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="Scene Magenta - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,255,10,0,11,255</FixtureVal>
+   <FixtureVal ID="1">9,255,10,0,11,255</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="Scene Yellow - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,255,10,255,11,0</FixtureVal>
+   <FixtureVal ID="1">9,255,10,255,11,0</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="Scene White - Wash-MovingHead" Path="Wizard/Colors Wash MH ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,255,10,255,11,255</FixtureVal>
+   <FixtureVal ID="1">9,255,10,255,11,255</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Chaser" Name="16 Colours chaser - Wash-MovingHead" Path="Wizard">
+   <Speed FadeIn="3000" FadeOut="0" Duration="3319"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+  </Function>
+  <Function ID="17" Type="Scene" Name="White - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,18</FixtureVal>
+   <FixtureVal ID="5">4,18</FixtureVal>
+   <FixtureVal ID="6">4,18</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="White/Red - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,18</FixtureVal>
+   <FixtureVal ID="5">4,18</FixtureVal>
+   <FixtureVal ID="6">4,18</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="Red - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,27</FixtureVal>
+   <FixtureVal ID="5">4,27</FixtureVal>
+   <FixtureVal ID="6">4,27</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="Red/Orange - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,37</FixtureVal>
+   <FixtureVal ID="5">4,37</FixtureVal>
+   <FixtureVal ID="6">4,37</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="Orange - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,51</FixtureVal>
+   <FixtureVal ID="5">4,51</FixtureVal>
+   <FixtureVal ID="6">4,51</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="Orange/Yellow - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,59</FixtureVal>
+   <FixtureVal ID="5">4,59</FixtureVal>
+   <FixtureVal ID="6">4,59</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="Yellow - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,73</FixtureVal>
+   <FixtureVal ID="5">4,73</FixtureVal>
+   <FixtureVal ID="6">4,73</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="Yellow/Green - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,82</FixtureVal>
+   <FixtureVal ID="5">4,82</FixtureVal>
+   <FixtureVal ID="6">4,82</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="Green - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,94</FixtureVal>
+   <FixtureVal ID="5">4,94</FixtureVal>
+   <FixtureVal ID="6">4,94</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="Green/Blue - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,105</FixtureVal>
+   <FixtureVal ID="5">4,105</FixtureVal>
+   <FixtureVal ID="6">4,105</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="Blue - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,114</FixtureVal>
+   <FixtureVal ID="5">4,114</FixtureVal>
+   <FixtureVal ID="6">4,114</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="Blue/Magenta - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,126</FixtureVal>
+   <FixtureVal ID="5">4,126</FixtureVal>
+   <FixtureVal ID="6">4,126</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="Magenta - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="30" Type="Scene" Name="Magenta/Cyan - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,145</FixtureVal>
+   <FixtureVal ID="5">4,145</FixtureVal>
+   <FixtureVal ID="6">4,145</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="Cyan - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,155</FixtureVal>
+   <FixtureVal ID="5">4,155</FixtureVal>
+   <FixtureVal ID="6">4,155</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="Color Wheel CCW - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,184</FixtureVal>
+   <FixtureVal ID="5">4,184</FixtureVal>
+   <FixtureVal ID="6">4,184</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="Color Wheel CW - LEDSP 60W" Path="Wizard/Colors LEDSP ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,230</FixtureVal>
+   <FixtureVal ID="5">4,230</FixtureVal>
+   <FixtureVal ID="6">4,230</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Chaser" Name="Colour macros chaser - LEDSP 60W" Path="Wizard">
+   <Speed FadeIn="3000" FadeOut="0" Duration="3321"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">20</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">22</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">27</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">29</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">30</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">31</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">32</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+  </Function>
+  <Function ID="35" Type="Scene" Name="Spot - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,3</FixtureVal>
+   <FixtureVal ID="5"/>
+   <FixtureVal ID="6"/>
+  </Function>
+  <Function ID="36" Type="Scene" Name="Circle/3 - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,17</FixtureVal>
+   <FixtureVal ID="5">5,17</FixtureVal>
+   <FixtureVal ID="6">5,17</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="Dots Circle - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,25</FixtureVal>
+   <FixtureVal ID="5"/>
+   <FixtureVal ID="6"/>
+  </Function>
+  <Function ID="38" Type="Scene" Name="3 Dots Circle - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,35</FixtureVal>
+   <FixtureVal ID="5">5,35</FixtureVal>
+   <FixtureVal ID="6">5,35</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="Irregular - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,46</FixtureVal>
+   <FixtureVal ID="5">5,46</FixtureVal>
+   <FixtureVal ID="6">5,46</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="Irregular Dots - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,53</FixtureVal>
+   <FixtureVal ID="5">5,53</FixtureVal>
+   <FixtureVal ID="6">5,53</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="Tornado - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,65</FixtureVal>
+   <FixtureVal ID="5">5,65</FixtureVal>
+   <FixtureVal ID="6">5,65</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="Zebra - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,73</FixtureVal>
+   <FixtureVal ID="5">5,73</FixtureVal>
+   <FixtureVal ID="6">5,73</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="Zebra Bouncing - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,85</FixtureVal>
+   <FixtureVal ID="5">5,85</FixtureVal>
+   <FixtureVal ID="6">5,85</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="Tornado Bouncing - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,94</FixtureVal>
+   <FixtureVal ID="5">5,94</FixtureVal>
+   <FixtureVal ID="6">5,94</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="Irregular Dots Bouncing - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,145</FixtureVal>
+   <FixtureVal ID="5">5,145</FixtureVal>
+   <FixtureVal ID="6">5,145</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="Irregular Bouncing - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5">5,116</FixtureVal>
+   <FixtureVal ID="6"/>
+  </Function>
+  <Function ID="47" Type="Scene" Name="3 Dots Circle Bouncing - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,147</FixtureVal>
+   <FixtureVal ID="5">5,147</FixtureVal>
+   <FixtureVal ID="6">5,147</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="Dots Circle Bouncing - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,135</FixtureVal>
+   <FixtureVal ID="5">5,135</FixtureVal>
+   <FixtureVal ID="6">5,135</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="Circle/3 Bouncing - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,137</FixtureVal>
+   <FixtureVal ID="5"/>
+   <FixtureVal ID="6"/>
+  </Function>
+  <Function ID="50" Type="Scene" Name="Gobo Wheel CCW - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,191</FixtureVal>
+   <FixtureVal ID="5">5,191</FixtureVal>
+   <FixtureVal ID="6">5,191</FixtureVal>
+  </Function>
+  <Function ID="51" Type="Scene" Name="Gobo Wheel CW - LEDSP 60W" Path="Wizard/Gobo LED SP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">5,238</FixtureVal>
+   <FixtureVal ID="4">5,238</FixtureVal>
+   <FixtureVal ID="6">5,238</FixtureVal>
+  </Function>
+  <Function ID="52" Type="Chaser" Name="Gobo macros chaser - LEDSP 60W" Path="Wizard">
+   <Speed FadeIn="3000" FadeOut="0" Duration="3321"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">35</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">36</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">37</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">44</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">45</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">46</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">48</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">49</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">50</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">51</Step>
+  </Function>
+  <Function ID="53" Type="Scene" Name="SoundMode" Path="WashML_FX">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">13,203</FixtureVal>
+   <FixtureVal ID="1">13,203</FixtureVal>
+  </Function>
+  <Function ID="54" Type="Scene" Name="off" Path="WashML_FX">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">13,0</FixtureVal>
+   <FixtureVal ID="1">13,0</FixtureVal>
+  </Function>
+  <Function ID="55" Type="EFX" Name="WashML Pos Basic " Path="WashML">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>30</Width>
+   <Height>50</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>147</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="56" Type="EFX" Name="WashML Pos Relative 8" Path="WashML">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Eight</Algorithm>
+   <Width>30</Width>
+   <Height>30</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="57" Type="EFX" Name="LedPar Col Rainbow Staggered" Path="LED Pars">
+   <Fixture>
+    <ID>7</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>10</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>270</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="19"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line2</Algorithm>
+   <Width>127</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="58" Type="Scene" Name="Bar" Path="Pos_SpotML">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,183,1,11,2,182,3,47</FixtureVal>
+  </Function>
+  <Function ID="61" Type="Scene" Name="Scene Black - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="14">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="15">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="62" Type="Chaser" Name="SpotML Pos Ani">
+   <Speed FadeIn="5000" FadeOut="0" Duration="15000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Function ID="64" Type="Scene" Name="Scene Black - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="10">1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="65" Type="Scene" Name="Scene Dark Blue - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="10">1,0,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="66" Type="Scene" Name="Scene Blue - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="10">1,0,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="67" Type="Scene" Name="Scene Dark Green - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="10">1,0,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="Scene Dark Cyan - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="8">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="10">1,0,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="Scene Green - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="10">1,0,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="Scene Cyan - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="8">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="10">1,0,2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="Scene Dark Red - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="10">1,128,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="Scene Dark Magenta - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="8">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="9">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="10">1,128,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="Scene Dark Yellow - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="8">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="9">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="10">1,128,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="74" Type="Scene" Name="Scene Dark Gray - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="8">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="9">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="10">1,128,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="75" Type="Scene" Name="Scene Light Gray - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="8">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="9">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="10">1,192,2,192,3,192</FixtureVal>
+  </Function>
+  <Function ID="76" Type="Scene" Name="Scene Red - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="10">1,255,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="77" Type="Scene" Name="Scene Magenta - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="10">1,255,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="78" Type="Scene" Name="Scene Yellow - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="10">1,255,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="79" Type="Scene" Name="Scene White - LED Flat Par 7x18W RGBWA+UV" Path="Wizard/Colors LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="10">1,255,2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="80" Type="Chaser" Name="16 Colours chaser - LED Flat Par 7x18W RGBWA+UV" Path="Wizard">
+   <Speed FadeIn="3000" FadeOut="0" Duration="19"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">65</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">70</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">71</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">72</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">73</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">74</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">75</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">76</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+  </Function>
+  <Function ID="81" Type="Chaser" Name="Random Color LED Flat Par">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">65</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">70</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">71</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">72</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">73</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">74</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">75</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">76</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+  </Function>
+  <Function ID="82" Type="EFX" Name="WashML Col Rainbow" Path="WashML">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>50</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="86" Type="EFX" Name="SpotML Rel 8" Path="SpotML">
+   <Fixture>
+    <ID>4</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>5</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>6</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Eight</Algorithm>
+   <Width>50</Width>
+   <Height>30</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="87" Type="EFX" Name="LED BAR Circle" Path="LED Bars">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>135</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>235</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>270</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>315</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="7540"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="98" Type="Scene" Name="WhiteFLash All">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,255,2,255,3,255,4,255,5,255,6,255,7,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,255,4,255,5,255,6,255,7,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,255,4,255,5,255,6,255,7,0</FixtureVal>
+   <FixtureVal ID="10">1,255,2,255,3,255,4,255,5,255,6,255,7,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="12">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="13">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="14">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="15">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="16">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="0">6,0,9,255,10,255,11,255,12,255</FixtureVal>
+   <FixtureVal ID="1">6,0,9,255,10,255,11,255,12,255</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Scene" Name="ZERO" Path="LED Bars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>11,0,10,0</ChannelGroupsVal>
+   <FixtureVal ID="2">3,0,4,0</FixtureVal>
+   <FixtureVal ID="3">3,0,4,0</FixtureVal>
+   <FixtureVal ID="11">3,0,4,0</FixtureVal>
+   <FixtureVal ID="12">3,0,4,0</FixtureVal>
+   <FixtureVal ID="13">3,0,4,0</FixtureVal>
+   <FixtureVal ID="14">3,0,4,0</FixtureVal>
+   <FixtureVal ID="15">3,0,4,0</FixtureVal>
+   <FixtureVal ID="16">3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="103" Type="Scene" Name="PosHalf" Path="LED Bars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>10,127</ChannelGroupsVal>
+   <FixtureVal ID="2">3,127</FixtureVal>
+   <FixtureVal ID="3">3,127</FixtureVal>
+   <FixtureVal ID="11">3,127</FixtureVal>
+   <FixtureVal ID="12">3,127</FixtureVal>
+   <FixtureVal ID="13">3,127</FixtureVal>
+   <FixtureVal ID="14">3,127</FixtureVal>
+   <FixtureVal ID="15">3,127</FixtureVal>
+   <FixtureVal ID="16">3,127</FixtureVal>
+  </Function>
+  <Function ID="105" Type="Scene" Name="ValHalf" Path="LED Bars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>11,127</ChannelGroupsVal>
+   <FixtureVal ID="2">4,127</FixtureVal>
+   <FixtureVal ID="3">4,127</FixtureVal>
+   <FixtureVal ID="11">4,127</FixtureVal>
+   <FixtureVal ID="12">4,127</FixtureVal>
+   <FixtureVal ID="13">4,127</FixtureVal>
+   <FixtureVal ID="14">4,127</FixtureVal>
+   <FixtureVal ID="15">4,127</FixtureVal>
+   <FixtureVal ID="16">4,127</FixtureVal>
+  </Function>
+  <Function ID="106" Type="EFX" Name="LED Bars Pos-Wave" Path="LED Bars">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>135</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>235</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>270</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>315</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="3770"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>0</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="107" Type="Scene" Name="Wash Center Flash" Path="WashML_Pos">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,107,1,67,2,213,3,160</FixtureVal>
+   <FixtureVal ID="1">0,122,1,254,2,188,3,233</FixtureVal>
+  </Function>
+  <Function ID="108" Type="EFX" Name="WashML Col Blue" Path="WashML">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>30</Width>
+   <Height>50</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>144</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="109" Type="EFX" Name="WashML Col Red" Path="WashML">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>30</Width>
+   <Height>50</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>240</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="110" Type="EFX" Name="WashML Col Green" Path="WashML">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>30</Width>
+   <Height>50</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>70</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="111" Type="EFX" Name="WashML Pos narrow" Path="WashML">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="1787"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>9</Width>
+   <Height>15</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>93</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>205</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="112" Type="Scene" Name="Strobe All" Path="Strobe">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">7,255</FixtureVal>
+   <FixtureVal ID="8">7,255</FixtureVal>
+   <FixtureVal ID="9">7,255</FixtureVal>
+   <FixtureVal ID="10">7,255</FixtureVal>
+   <FixtureVal ID="4">6,255</FixtureVal>
+   <FixtureVal ID="5">6,255</FixtureVal>
+   <FixtureVal ID="6">6,255</FixtureVal>
+   <FixtureVal ID="0">6,255</FixtureVal>
+   <FixtureVal ID="1">6,255</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="Strobe Off" Path="Strobe">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">7,0</FixtureVal>
+   <FixtureVal ID="8">7,0</FixtureVal>
+   <FixtureVal ID="9">7,0</FixtureVal>
+   <FixtureVal ID="10">7,0</FixtureVal>
+   <FixtureVal ID="4">6,0</FixtureVal>
+   <FixtureVal ID="5">6,0</FixtureVal>
+   <FixtureVal ID="6">6,0</FixtureVal>
+   <FixtureVal ID="0">6,0</FixtureVal>
+   <FixtureVal ID="1">6,0</FixtureVal>
+  </Function>
+  <Function ID="114" Type="EFX" Name="LED Bars Val-Wave" Path="LED Bars">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>135</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>235</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>270</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>315</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="3770"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>127</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="116" Type="Scene" Name="Scene Black - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="14">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="Scene Black - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="15">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="Scene Dark Blue - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="14">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="15">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0,2,128</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="Scene Dark Blue - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="14">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0,2,128</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="Scene Dark Blue - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0,2,128</FixtureVal>
+   <FixtureVal ID="15">0,0,1,0,2,128</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="Scene Blue - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="14">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="15">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="Scene Blue - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="14">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="Scene Blue - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="15">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="Scene Dark Green - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="14">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="15">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,128,2,0</FixtureVal>
+  </Function>
+  <Function ID="125" Type="Scene" Name="Scene Dark Green - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="14">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,128,2,0</FixtureVal>
+  </Function>
+  <Function ID="126" Type="Scene" Name="Scene Dark Green - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,128,2,0</FixtureVal>
+   <FixtureVal ID="15">0,0,1,128,2,0</FixtureVal>
+  </Function>
+  <Function ID="127" Type="Scene" Name="Scene Dark Cyan - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="3">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="11">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="12">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="13">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="14">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="15">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="16">0,0,1,128,2,128</FixtureVal>
+  </Function>
+  <Function ID="128" Type="Scene" Name="Scene Dark Cyan - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="12">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="14">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="16">0,0,1,128,2,128</FixtureVal>
+  </Function>
+  <Function ID="129" Type="Scene" Name="Scene Dark Cyan - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="11">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="13">0,0,1,128,2,128</FixtureVal>
+   <FixtureVal ID="15">0,0,1,128,2,128</FixtureVal>
+  </Function>
+  <Function ID="130" Type="Scene" Name="Scene Green - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="14">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="15">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="131" Type="Scene" Name="Scene Green - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="14">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="132" Type="Scene" Name="Scene Green - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="15">0,0,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="133" Type="Scene" Name="Scene Cyan - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="11">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="12">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="13">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="14">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="15">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="16">0,0,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="134" Type="Scene" Name="Scene Cyan - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="12">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="14">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="16">0,0,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="135" Type="Scene" Name="Scene Cyan - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="11">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="13">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="15">0,0,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="136" Type="Scene" Name="Scene Dark Red - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="12">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="13">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="14">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="15">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="16">0,128,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="137" Type="Scene" Name="Scene Dark Red - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="12">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="14">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="16">0,128,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="138" Type="Scene" Name="Scene Dark Red - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="13">0,128,1,0,2,0</FixtureVal>
+   <FixtureVal ID="15">0,128,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="139" Type="Scene" Name="Scene Dark Magenta - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="3">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="11">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="12">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="13">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="14">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="15">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="16">0,128,1,0,2,128</FixtureVal>
+  </Function>
+  <Function ID="140" Type="Scene" Name="Scene Dark Magenta - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="12">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="14">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="16">0,128,1,0,2,128</FixtureVal>
+  </Function>
+  <Function ID="141" Type="Scene" Name="Scene Dark Magenta - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="11">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="13">0,128,1,0,2,128</FixtureVal>
+   <FixtureVal ID="15">0,128,1,0,2,128</FixtureVal>
+  </Function>
+  <Function ID="142" Type="Scene" Name="Scene Dark Yellow - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="3">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="11">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="12">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="13">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="14">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="15">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="16">0,128,1,128,2,0</FixtureVal>
+  </Function>
+  <Function ID="143" Type="Scene" Name="Scene Dark Yellow - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="12">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="14">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="16">0,128,1,128,2,0</FixtureVal>
+  </Function>
+  <Function ID="144" Type="Scene" Name="Scene Dark Yellow - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="11">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="13">0,128,1,128,2,0</FixtureVal>
+   <FixtureVal ID="15">0,128,1,128,2,0</FixtureVal>
+  </Function>
+  <Function ID="145" Type="Scene" Name="Scene Dark Gray - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="3">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="11">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="12">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="13">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="14">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="15">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="16">0,128,1,128,2,128</FixtureVal>
+  </Function>
+  <Function ID="146" Type="Scene" Name="Scene Dark Gray - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="12">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="14">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="16">0,128,1,128,2,128</FixtureVal>
+  </Function>
+  <Function ID="147" Type="Scene" Name="Scene Dark Gray - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="11">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="13">0,128,1,128,2,128</FixtureVal>
+   <FixtureVal ID="15">0,128,1,128,2,128</FixtureVal>
+  </Function>
+  <Function ID="148" Type="Scene" Name="Scene Light Gray - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="3">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="11">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="12">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="13">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="14">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="15">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="16">0,192,1,192,2,192</FixtureVal>
+  </Function>
+  <Function ID="149" Type="Scene" Name="Scene Light Gray - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="12">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="14">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="16">0,192,1,192,2,192</FixtureVal>
+  </Function>
+  <Function ID="150" Type="Scene" Name="Scene Light Gray - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="11">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="13">0,192,1,192,2,192</FixtureVal>
+   <FixtureVal ID="15">0,192,1,192,2,192</FixtureVal>
+  </Function>
+  <Function ID="151" Type="Scene" Name="Scene Red - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="13">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="14">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="15">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="16">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="152" Type="Scene" Name="Scene Red - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="14">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="16">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="153" Type="Scene" Name="Scene Red - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="13">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="15">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="154" Type="Scene" Name="Scene Magenta - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="13">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="14">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="15">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="16">0,255,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="155" Type="Scene" Name="Scene Magenta - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="14">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="16">0,255,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="156" Type="Scene" Name="Scene Magenta - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="13">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="15">0,255,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="157" Type="Scene" Name="Scene Yellow - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="12">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="13">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="14">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="15">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="16">0,255,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="158" Type="Scene" Name="Scene Yellow - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="12">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="14">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="16">0,255,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="159" Type="Scene" Name="Scene Yellow - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="13">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="15">0,255,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="160" Type="Scene" Name="Scene White - LedBars_v2" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="12">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="13">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="14">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="15">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="16">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="161" Type="Scene" Name="Scene White - LedBars_v2 (Even)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="12">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="14">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="16">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="162" Type="Scene" Name="Scene White - LedBars_v2 (Odd)" Path="Wizard/Colors LedBars">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="13">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="15">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="163" Type="Chaser" Name="16 Colours chaser - LedBars_v2" Path="Wizard">
+   <Speed FadeIn="3000" FadeOut="0" Duration="19"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">118</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">121</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">124</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">127</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">130</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">133</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">136</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">142</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">145</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">148</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">151</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">154</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">157</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">160</Step>
+  </Function>
+  <Function ID="164" Type="EFX" Name="LED Bars Pos-Wave Sym" Path="LED Bars">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>135</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>135</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="3770"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>0</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="165" Type="EFX" Name="LED Bars Val-Wave Sym" Path="LED Bars">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>135</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>135</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="3770"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>127</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="166" Type="EFX" Name="LED BAR Col Blue" Path="LED Bars/Col">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>30</Width>
+   <Height>40</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>144</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="167" Type="EFX" Name="LED BAR Col Green" Path="LED Bars/Col">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>30</Width>
+   <Height>40</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>70</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="168" Type="EFX" Name="LED BAR Col Rainbow" Path="LED Bars/Col">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>50</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="169" Type="EFX" Name="LED BAR Col Red" Path="LED Bars/Col">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>14</Width>
+   <Height>14</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>240</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="170" Type="EFX" Name="LedPar Col Rainbow" Path="LED Pars">
+   <Fixture>
+    <ID>7</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>10</ID>
+    <Head>0</Head>
+    <Mode>2</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="19"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line2</Algorithm>
+   <Width>127</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="171" Type="Scene" Name="Dimmer" Path="LED Bars/Audio">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="18">0,255</FixtureVal>
+  </Function>
+  <Function ID="172" Type="Scene" Name="Pos" Path="LED Bars/Audio">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="19">0,255</FixtureVal>
+  </Function>
+  <Function ID="173" Type="Scene" Name="Val" Path="LED Bars/Audio">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">0,255</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Cantarell,7,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="3" Height="3" Depth="3" Units="0"/>
+   <FxItem ID="7" XPos="0" YPos="0"/>
+   <FxItem ID="8" XPos="0" YPos="0"/>
+   <FxItem ID="9" XPos="1131.55" YPos="824.866"/>
+   <FxItem ID="10" XPos="1951.2" YPos="1123.05"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>4282203454</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Caption="BlackFlasch" ID="206" Icon="">
+    <WindowState Visible="False" X="930" Y="285" Width="110" Height="60"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4294967295"/>
+    <Action>Flash</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="WhiteFlash [F]" ID="205" Icon="">
+    <WindowState Visible="False" X="930" Y="220" Width="110" Height="60"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="98"/>
+    <Action>Flash</Action>
+    <Key>F</Key>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <SoloFrame Caption="" ID="143">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4279571733</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="215" Y="190" Width="200" Height="200"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="EFX Rainbow" ID="144" Icon="">
+     <WindowState Visible="False" X="10" Y="10" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="82"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="145" Icon="">
+     <WindowState Visible="False" X="70" Y="10" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="146" Icon="">
+     <WindowState Visible="False" X="130" Y="10" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Red" ID="147" Icon="">
+     <WindowState Visible="False" X="10" Y="70" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294901760</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="109"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Green" ID="148" Icon="">
+     <WindowState Visible="False" X="70" Y="70" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4280722025</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="110"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Blue" ID="149" Icon="">
+     <WindowState Visible="False" X="130" Y="70" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279918516</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="108"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="150" Icon="">
+     <WindowState Visible="False" X="10" Y="130" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="151" Icon="">
+     <WindowState Visible="False" X="70" Y="130" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="152" Icon="">
+     <WindowState Visible="False" X="130" Y="130" Width="60" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SpeedDial Caption="Col Flat Par" ID="190">
+    <WindowState Visible="False" X="690" Y="85" Width="200" Height="105"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>116</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Tap>
+     <Input Universe="0" Channel="1"/>
+    </Tap>
+    <Time>19</Time>
+    <Key>Space</Key>
+    <Function FadeIn="0" FadeOut="0" Duration="6">57</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">170</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">80</Function>
+   </SpeedDial>
+   <XYPad Caption="XY Pad" ID="62" InvertedAppearance="0">
+    <WindowState Visible="False" X="10" Y="395" Width="200" Height="220"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Fixture ID="0" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Pan Position="131"/>
+    <Tilt Position="130"/>
+   </XYPad>
+   <XYPad Caption="XY Pad" ID="63" InvertedAppearance="0">
+    <WindowState Visible="False" X="215" Y="395" Width="200" Height="220"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Fixture ID="1" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Pan Position="127">
+     <Input Universe="0" Channel="3"/>
+    </Pan>
+    <Tilt Position="127">
+     <Input Universe="0" Channel="4"/>
+    </Tilt>
+   </XYPad>
+   <Slider Caption="Dimmer" ID="65" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="15" Y="620" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="10"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="0">5</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="RGB" ID="66" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="80" Y="620" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="128">
+     <Channel Fixture="0">9</Channel>
+     <Channel Fixture="0">10</Channel>
+     <Channel Fixture="0">11</Channel>
+     <Channel Fixture="0">12</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Strobe" ID="67" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="145" Y="620" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="0">6</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Dimmer" ID="68" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="220" Y="620" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="1">5</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="RGB" ID="69" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="285" Y="620" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="128">
+     <Channel Fixture="1">9</Channel>
+     <Channel Fixture="1">10</Channel>
+     <Channel Fixture="1">11</Channel>
+     <Channel Fixture="1">12</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Strobe" ID="70" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="350" Y="620" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="1">6</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <SoloFrame Caption="" ID="75">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="10" Y="830" Width="175" Height="55"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="SoundMode" ID="73" Icon="">
+     <WindowState Visible="False" X="5" Y="5" Width="80" Height="45"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="53"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Off" ID="74" Icon="">
+     <WindowState Visible="False" X="90" Y="5" Width="80" Height="45"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="54"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SpeedDial Caption="Col wash MH " ID="76">
+    <WindowState Visible="False" X="10" Y="85" Width="200" Height="105"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>124</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Time>3319</Time>
+    <Key>Space</Key>
+    <Function FadeIn="0" FadeOut="0" Duration="6">16</Function>
+   </SpeedDial>
+   <Clock Type="Clock" Caption="" ID="100">
+    <WindowState Visible="False" X="915" Y="10" Width="195" Height="55"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Cantarell,28,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+   </Clock>
+   <Frame Caption="Spot MH" ID="101">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4279571733</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="425" Y="395" Width="260" Height="475"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>False</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Multipage PagesNum="3" CurrentPage="0"/>
+    <Shortcut Page="0" Name="1"/>
+    <Shortcut Page="1" Name="2"/>
+    <Shortcut Page="2" Name="3"/>
+    <PagesLoop>False</PagesLoop>
+    <Slider Caption="Dimmer" ID="102" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="5" Y="270" Width="70" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="4">7</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Color" ID="103" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="75" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="137">
+      <Channel Fixture="4">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <XYPad Caption="XY Pad" ID="64" InvertedAppearance="0">
+     <WindowState Visible="False" X="5" Y="35" Width="250" Height="230"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Fixture ID="4" Head="0">
+      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+     </Fixture>
+     <Pan Position="127">
+      <Input Universe="0" Channel="0"/>
+     </Pan>
+     <Tilt Position="127">
+      <Input Universe="0" Channel="1"/>
+     </Tilt>
+     <Preset ID="16">
+      <Type>Position</Type>
+      <Name>TOP</Name>
+      <X>127.5</X>
+      <Y>127.498</Y>
+     </Preset>
+    </XYPad>
+    <Slider Caption="Gobo" ID="104" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="135" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="3">
+      <Channel Fixture="4">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Strobo" ID="105" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="195" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="4">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Dimmer" ID="106" Page="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="5" Y="270" Width="70" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="5">7</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Color" ID="107" Page="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="75" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="5">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <XYPad Caption="XY Pad" ID="108" Page="1" InvertedAppearance="0">
+     <WindowState Visible="False" X="5" Y="35" Width="250" Height="230"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Fixture ID="5" Head="0">
+      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+     </Fixture>
+     <Pan Position="127"/>
+     <Tilt Position="127"/>
+     <Preset ID="16">
+      <Type>Position</Type>
+      <Name>TOP</Name>
+      <X>127.496</X>
+      <Y>127.5</Y>
+     </Preset>
+    </XYPad>
+    <Slider Caption="Gobo" ID="109" Page="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="135" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="5">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Strobe" ID="110" Page="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="195" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="5">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Dimmer" ID="111" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="5" Y="270" Width="70" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">7</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Color" ID="112" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="75" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="5">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <XYPad Caption="XY Pad" ID="113" Page="2" InvertedAppearance="0">
+     <WindowState Visible="False" X="5" Y="35" Width="250" Height="230"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Fixture ID="6" Head="0">
+      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+     </Fixture>
+     <Pan Position="101"/>
+     <Tilt Position="20"/>
+     <Preset ID="16">
+      <Type>Position</Type>
+      <Name>TOP</Name>
+      <X>127.5</X>
+      <Y>127.498</Y>
+     </Preset>
+     <Preset ID="17">
+      <Type>Position</Type>
+      <Name>X:97 - Y:8</Name>
+      <X>97.3639</X>
+      <Y>8.50755</Y>
+     </Preset>
+     <Preset ID="18">
+      <Type>EFX</Type>
+      <Name>spot Rel 8</Name>
+      <FuncID>86</FuncID>
+     </Preset>
+    </XYPad>
+    <Slider Caption="Gobo" ID="114" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="135" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="30">
+      <Channel Fixture="5">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Strobo" ID="115" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="195" Y="270" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="237">
+      <Channel Fixture="6">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <AudioTriggers BarsNumber="10" Caption="" ID="117">
+    <WindowState Visible="False" X="1350" Y="5" Width="210" Height="185"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SpectrumBar Name="#1 (0Hz - 500Hz)" Type="2" MinThreshold="127" MaxThreshold="204" Divisor="1" Index="0"/>
+    <SpectrumBar Name="#2 (500Hz - 1000Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="1">
+     <DMXChannels>21,0</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#3 (1000Hz - 1500Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="2">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#4 (1500Hz - 2000Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="3"/>
+   </AudioTriggers>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
