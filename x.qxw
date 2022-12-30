@@ -8,7 +8,7 @@
  </Creator>
  <Engine>
   <InputOutputMap>
-   <Universe Name="Main" ID="0">
+   <Universe Name="Main" ID="0" Passthrough="True">
     <Input Plugin="E1.31" UID="127.0.0.1" Line="1">
      <PluginParameters multicast="0" ucastPort="5569" universe="1"/>
     </Input>
