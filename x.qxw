@@ -214,7 +214,6 @@
    <Universe>1</Universe>
    <Address>1</Address>
    <Channels>1</Channels>
-   <ForcedLTP>0</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -225,7 +224,6 @@
    <Universe>1</Universe>
    <Address>2</Address>
    <Channels>1</Channels>
-   <ForcedLTP>0</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -236,7 +234,6 @@
    <Universe>1</Universe>
    <Address>3</Address>
    <Channels>1</Channels>
-   <ForcedLTP>0</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
