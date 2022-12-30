@@ -3207,7 +3207,30 @@
     <SpectrumBar Name="#2 (500Hz - 1000Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="1">
      <DMXChannels>21,1</DMXChannels>
     </SpectrumBar>
-    
+    <SpectrumBar Name="#3 (1000Hz - 1500Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="2">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#4 (1500Hz - 2000Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="3">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#5 (2000Hz - 2500Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="4">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#6 (2500Hz - 3000Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="5">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#7 (3000Hz - 3500Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="6">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#8 (3500Hz - 4000Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="7">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#9 (4000Hz - 4500Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="8">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
+    <SpectrumBar Name="#10 (4500Hz - 5000Hz)" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="9">
+     <DMXChannels>21,1</DMXChannels>
+    </SpectrumBar>
    </AudioTriggers>
    <Frame Caption="" ID="118">
     <Appearance>
@@ -6744,61 +6767,6 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </SoloFrame>
-   <Frame Caption="" ID="240">
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279571733</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="True" X="1730" Y="845" Width="145" Height="170"/>
-    <AllowChildren>False</AllowChildren>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>False</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <Button Caption="PosHalf" ID="242" Icon="">
-     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="103"/>
-     <Action>Flash</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="ValHalf" ID="243" Icon="">
-     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="105"/>
-     <Action>Flash</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="ZERO" ID="245" Icon="">
-     <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="100"/>
-     <Action>Flash</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-   </Frame>
    <SoloFrame Caption="" ID="197">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
