@@ -770,7 +770,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="58" Type="Scene" Name="Bar" Path="Pos_SpotML">
+  <Function ID="58" Type="Scene" Name="Bar" Path="SpotML_Pos">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,183,1,11,2,182,3,47</FixtureVal>
   </Function>
@@ -957,7 +957,7 @@
    <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">78</Step>
    <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">79</Step>
   </Function>
-  <Function ID="82" Type="EFX" Name="WashML Col Rainbow" Path="WashML">
+  <Function ID="82" Type="EFX" Name="WashML Col Rainbow" Path="WashML/Col">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -1310,7 +1310,7 @@
    <FixtureVal ID="0">0,107,1,67,2,213,3,160</FixtureVal>
    <FixtureVal ID="1">0,122,1,254,2,188,3,233</FixtureVal>
   </Function>
-  <Function ID="108" Type="EFX" Name="WashML Col Blue" Path="WashML">
+  <Function ID="108" Type="EFX" Name="WashML Col Blue" Path="WashML/Col">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -1346,7 +1346,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="109" Type="EFX" Name="WashML Col Red" Path="WashML">
+  <Function ID="109" Type="EFX" Name="WashML Col Red" Path="WashML/Col">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -1382,7 +1382,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="110" Type="EFX" Name="WashML Col Green" Path="WashML">
+  <Function ID="110" Type="EFX" Name="WashML Col Green" Path="WashML/Col">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
