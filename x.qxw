@@ -388,7 +388,7 @@
    <FixtureVal ID="1">9,255,10,255,11,255</FixtureVal>
   </Function>
   <Function ID="16" Type="Chaser" Name="16 Colours chaser - Wash-MovingHead" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1000" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -508,7 +508,7 @@
    <FixtureVal ID="6">4,230</FixtureVal>
   </Function>
   <Function ID="34" Type="Chaser" Name="Colour macros chaser - LEDSP 60W" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1000" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -633,7 +633,7 @@
    <FixtureVal ID="6">5,238</FixtureVal>
   </Function>
   <Function ID="52" Type="Chaser" Name="Gobo macros chaser - LEDSP 60W" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1000" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -767,7 +767,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -933,7 +933,7 @@
    <FixtureVal ID="10">1,255,2,255,3,255</FixtureVal>
   </Function>
   <Function ID="80" Type="Chaser" Name="16 Colours chaser - LED Flat Par 7x18W RGBWA+UV" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1000" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1123,7 +1123,7 @@
     <StartOffset>315</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="2004"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="6000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -1304,7 +1304,7 @@
     <StartOffset>315</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -1557,7 +1557,7 @@
     <StartOffset>315</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -1967,7 +1967,7 @@
    <FixtureVal ID="15">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="163" Type="Chaser" Name="16 Colours chaser - LedBars_v2" Path="Wizard">
-   <Speed FadeIn="3000" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1000" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2045,7 +2045,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -2123,7 +2123,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -2485,7 +2485,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -2598,7 +2598,7 @@
    <FixtureVal ID="24">6,255,7,255,8,255</FixtureVal>
   </Function>
   <Function ID="195" Type="Chaser" Name="16 Colours chaser - LED BeeEye ML 6x15W RGBW" Path="Wizard">
-   <Speed FadeIn="1000" FadeOut="0" Duration="2870"/>
+   <Speed FadeIn="1000" FadeOut="0" Duration="3000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -3144,7 +3144,7 @@
     <Tap>
      <Input Universe="0" Channel="1"/>
     </Tap>
-    <Time>1000</Time>
+    <Time>3000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">165</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">114</Function>
@@ -3554,7 +3554,7 @@
     <Tap>
      <Input Universe="0" Channel="1"/>
     </Tap>
-    <Time>1000</Time>
+    <Time>3000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">57</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">170</Function>
@@ -3759,7 +3759,7 @@
     </Appearance>
     <Visibility>124</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Time>1000</Time>
+    <Time>3000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">16</Function>
    </SpeedDial>
@@ -4566,7 +4566,7 @@
     </Appearance>
     <Visibility>124</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Time>1000</Time>
+    <Time>3000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">52</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">34</Function>
@@ -4645,7 +4645,7 @@
     <Tap>
      <Input Universe="0" Channel="1"/>
     </Tap>
-    <Time>1000</Time>
+    <Time>3000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">163</Function>
    </SpeedDial>
