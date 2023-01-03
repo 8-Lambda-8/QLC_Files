@@ -2659,6 +2659,185 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
+   <SoloFrame Caption="" ID="172">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4279571733</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="1640" Y="195" Width="120" Height="120"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="EFX Blue" ID="189" Icon="">
+     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279918516</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="166"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Green" ID="191" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4280722025</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="167"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Rainbow" ID="193" Icon="">
+     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="168"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="EFX Red" ID="194" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294901760</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="169"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <XYPad Caption="XY Pad" ID="332" InvertedAppearance="0">
+    <WindowState Visible="True" X="220" Y="330" Width="415" Height="315"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Fixture ID="23" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="24" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="True"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="4" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="5" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="True"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="6" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="0" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="1" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="True"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Window hMin="1" hMax="256" vMin="0" vMax="256"/>
+    <Pan Position="57">
+     <Input Universe="2" Channel="0"/>
+    </Pan>
+    <Tilt Position="200">
+     <Input Universe="2" Channel="1"/>
+    </Tilt>
+    <Preset ID="16">
+     <Type>FixtureGroup</Type>
+     <Name>Wash</Name>
+     <Fixture ID="0" Head="0"/>
+     <Fixture ID="1" Head="0"/>
+    </Preset>
+    <Preset ID="17">
+     <Type>FixtureGroup</Type>
+     <Name>W 1</Name>
+     <Fixture ID="0" Head="0"/>
+    </Preset>
+    <Preset ID="18">
+     <Type>FixtureGroup</Type>
+     <Name>W 2</Name>
+     <Fixture ID="1" Head="0"/>
+    </Preset>
+    <Preset ID="19">
+     <Type>FixtureGroup</Type>
+     <Name>Bee</Name>
+     <Fixture ID="23" Head="0"/>
+     <Fixture ID="24" Head="0"/>
+    </Preset>
+    <Preset ID="20">
+     <Type>FixtureGroup</Type>
+     <Name>B 1</Name>
+     <Fixture ID="23" Head="0"/>
+    </Preset>
+    <Preset ID="21">
+     <Type>FixtureGroup</Type>
+     <Name>B 2</Name>
+     <Fixture ID="24" Head="0"/>
+    </Preset>
+    <Preset ID="22">
+     <Type>FixtureGroup</Type>
+     <Name>Spot</Name>
+     <Fixture ID="4" Head="0"/>
+     <Fixture ID="5" Head="0"/>
+    </Preset>
+    <Preset ID="23">
+     <Type>FixtureGroup</Type>
+     <Name>S 1</Name>
+     <Fixture ID="4" Head="0"/>
+    </Preset>
+    <Preset ID="24">
+     <Type>FixtureGroup</Type>
+     <Name>S 2</Name>
+     <Fixture ID="5" Head="0"/>
+    </Preset>
+    <Preset ID="25">
+     <Type>FixtureGroup</Type>
+     <Name>70</Name>
+     <Fixture ID="6" Head="0"/>
+    </Preset>
+    <Preset ID="26">
+     <Type>Position</Type>
+     <Name>Top</Name>
+     <X>128.29</X>
+     <Y>128.32</Y>
+    </Preset>
+    <Preset ID="27">
+     <Type>Position</Type>
+     <Name>Front</Name>
+     <X>128</X>
+     <Y>32.96</Y>
+    </Preset>
+   </XYPad>
    <Button Caption="BlackFlasch" ID="206" Icon="">
     <WindowState Visible="True" X="930" Y="280" Width="110" Height="60"/>
     <Appearance>
@@ -6814,75 +6993,6 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </Frame>
-   <SoloFrame Caption="" ID="172">
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279571733</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="True" X="1640" Y="195" Width="120" Height="120"/>
-    <AllowChildren>False</AllowChildren>
-    <AllowResize>False</AllowResize>
-    <ShowHeader>False</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Mixing>False</Mixing>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <Button Caption="EFX Blue" ID="189" Icon="">
-     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4279918516</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="166"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="EFX Green" ID="191" Icon="">
-     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4280722025</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="167"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="EFX Rainbow" ID="193" Icon="">
-     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="168"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="EFX Red" ID="194" Icon="">
-     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4294901760</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="169"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-   </SoloFrame>
    <Frame Caption="Bee ML" ID="196">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
@@ -7567,115 +7677,6 @@
      <Function>4294967295</Function>
     </Playback>
    </Slider>
-   <XYPad Caption="XY Pad" ID="332" InvertedAppearance="0">
-    <WindowState Visible="True" X="220" Y="330" Width="415" Height="315"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Fixture ID="23" Head="0">
-     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
-     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
-    </Fixture>
-    <Fixture ID="24" Head="0">
-     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="True"/>
-     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
-    </Fixture>
-    <Fixture ID="4" Head="0">
-     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
-     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
-    </Fixture>
-    <Fixture ID="5" Head="0">
-     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="True"/>
-     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
-    </Fixture>
-    <Fixture ID="6" Head="0">
-     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
-     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
-    </Fixture>
-    <Fixture ID="0" Head="0">
-     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
-     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
-    </Fixture>
-    <Fixture ID="1" Head="0">
-     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="True"/>
-     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
-    </Fixture>
-    <Pan Position="57">
-     <Input Universe="2" Channel="0"/>
-    </Pan>
-    <Tilt Position="200">
-     <Input Universe="2" Channel="1"/>
-    </Tilt>
-    <Preset ID="16">
-     <Type>FixtureGroup</Type>
-     <Name>Wash</Name>
-     <Fixture ID="0" Head="0"/>
-     <Fixture ID="1" Head="0"/>
-    </Preset>
-    <Preset ID="17">
-     <Type>FixtureGroup</Type>
-     <Name>W 1</Name>
-     <Fixture ID="0" Head="0"/>
-    </Preset>
-    <Preset ID="18">
-     <Type>FixtureGroup</Type>
-     <Name>W 2</Name>
-     <Fixture ID="1" Head="0"/>
-    </Preset>
-    <Preset ID="19">
-     <Type>FixtureGroup</Type>
-     <Name>Bee</Name>
-     <Fixture ID="23" Head="0"/>
-     <Fixture ID="24" Head="0"/>
-    </Preset>
-    <Preset ID="20">
-     <Type>FixtureGroup</Type>
-     <Name>B 1</Name>
-     <Fixture ID="23" Head="0"/>
-    </Preset>
-    <Preset ID="21">
-     <Type>FixtureGroup</Type>
-     <Name>B 2</Name>
-     <Fixture ID="24" Head="0"/>
-    </Preset>
-    <Preset ID="22">
-     <Type>FixtureGroup</Type>
-     <Name>Spot</Name>
-     <Fixture ID="4" Head="0"/>
-     <Fixture ID="5" Head="0"/>
-    </Preset>
-    <Preset ID="23">
-     <Type>FixtureGroup</Type>
-     <Name>S 1</Name>
-     <Fixture ID="4" Head="0"/>
-    </Preset>
-    <Preset ID="24">
-     <Type>FixtureGroup</Type>
-     <Name>S 2</Name>
-     <Fixture ID="5" Head="0"/>
-    </Preset>
-    <Preset ID="25">
-     <Type>FixtureGroup</Type>
-     <Name>70</Name>
-     <Fixture ID="6" Head="0"/>
-    </Preset>
-    <Preset ID="26">
-     <Type>Position</Type>
-     <Name>Top</Name>
-     <X>128.29</X>
-     <Y>128.32</Y>
-    </Preset>
-    <Preset ID="27">
-     <Type>Position</Type>
-     <Name>Front</Name>
-     <X>128</X>
-     <Y>32.96</Y>
-    </Preset>
-   </XYPad>
   </Frame>
   <Properties>
    <Size Width="1865" Height="1000"/>
