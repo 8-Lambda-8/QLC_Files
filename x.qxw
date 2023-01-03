@@ -2659,7 +2659,7 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <SoloFrame Caption="" ID="172">
+   <SoloFrame Caption="LedBars Col EFX" ID="172">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3240,7 +3240,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </Frame>
-   <SoloFrame Caption="" ID="215">
+   <SoloFrame Caption="LedBars Pos EFX" ID="215">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3331,7 +3331,7 @@
     <Function FadeIn="0" FadeOut="0" Duration="6">106</Function>
     <Function FadeIn="0" FadeOut="0" Duration="7">87</Function>
    </SpeedDial>
-   <SoloFrame Caption="" ID="233">
+   <SoloFrame Caption="LedBars Val EFX" ID="233">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3585,7 +3585,7 @@
      </Playback>
     </Slider>
    </SoloFrame>
-   <SoloFrame Caption="" ID="143">
+   <SoloFrame Caption="Wash ML Col EFX" ID="143">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3700,11 +3700,11 @@
     <Function FadeIn="0" FadeOut="0" Duration="6">170</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">80</Function>
    </SpeedDial>
-   <SoloFrame Caption="" ID="75">
+   <SoloFrame Caption="Wash ML SoundMode" ID="75">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundColor>4279571733</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
@@ -4037,7 +4037,7 @@
      <DMXChannels>21,9</DMXChannels>
     </SpectrumBar>
    </AudioTriggers>
-   <Frame Caption="" ID="118">
+   <Frame Caption="FlatPars Fader" ID="118">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4203,7 +4203,7 @@
      </Playback>
     </Slider>
    </Frame>
-   <SoloFrame Caption="Wash MH Pos" ID="71">
+   <SoloFrame Caption="Wash ML Pos EFX" ID="71">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4298,7 +4298,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </SoloFrame>
-   <Frame Caption="" ID="153">
+   <Frame Caption="Spot ML Pos EFX" ID="153">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4662,7 +4662,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>True</Collapsed>
     <Disabled>False</Disabled>
-    <SoloFrame Caption="Presets solo frame" ID="78">
+    <SoloFrame Caption="LedBars Col Btn" ID="78">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4943,7 +4943,7 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <SoloFrame Caption="Presets solo frame" ID="270">
+    <SoloFrame Caption="LedBars Col Btn Even" ID="270">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5168,7 +5168,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
     </SoloFrame>
-    <SoloFrame Caption="Presets solo frame" ID="349">
+    <SoloFrame Caption="LedBars Col Btn Odd" ID="349">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5394,7 +5394,7 @@
      </Button>
     </SoloFrame>
    </Frame>
-   <Frame Caption="" ID="116">
+   <Frame Caption="FlatPars Col EFX" ID="116">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5406,7 +5406,7 @@
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
+    <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="EFX Rainbow" ID="134" Icon="">
@@ -5741,7 +5741,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>True</Collapsed>
     <Disabled>False</Disabled>
-    <SoloFrame Caption="Presets solo frame" ID="81">
+    <SoloFrame Caption="FlatPar Col Btn" ID="81">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6026,7 +6026,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>True</Collapsed>
     <Disabled>False</Disabled>
-    <SoloFrame Caption="Presets solo frame" ID="21">
+    <SoloFrame Caption="Spot ML Col Btn" ID="21">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6311,7 +6311,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>True</Collapsed>
     <Disabled>False</Disabled>
-    <SoloFrame Caption="Presets solo frame" ID="42">
+    <SoloFrame Caption="Spot ML Gobo Btn" ID="42">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6596,7 +6596,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>True</Collapsed>
     <Disabled>False</Disabled>
-    <SoloFrame Caption="Presets solo frame" ID="1">
+    <SoloFrame Caption="Wash ML Col Btn" ID="1">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6860,7 +6860,7 @@
      </Playback>
     </Slider>
    </Frame>
-   <Frame Caption="" ID="230">
+   <Frame Caption="LedBars Pos Val Presets" ID="230">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7285,11 +7285,11 @@
      </Playback>
     </Slider>
    </Frame>
-   <SoloFrame Caption="" ID="278">
+   <SoloFrame Caption="BeeEye ML Rotation EFX" ID="278">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundColor>4279571733</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
@@ -7395,7 +7395,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>True</Collapsed>
     <Disabled>False</Disabled>
-    <SoloFrame Caption="Presets solo frame" ID="305">
+    <SoloFrame Caption="BeeEye ML Col Btn" ID="305">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7659,7 +7659,7 @@
      </Playback>
     </Slider>
    </Frame>
-   <Slider Caption="Knob 63" ID="63" WidgetStyle="Knob" InvertedAppearance="false">
+   <Slider Caption="SoundMode" ID="63" WidgetStyle="Knob" InvertedAppearance="false">
     <WindowState Visible="True" X="380" Y="890" Width="65" Height="115"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
