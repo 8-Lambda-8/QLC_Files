@@ -22,7 +22,15 @@
      <PluginParameters UniverseChannels="39" multicast="0" priority="100" transmitMode="Full" ucastIP="127.0.0.1" ucastPort="5568" universe="2"/>
     </Output>
    </Universe>
-   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="OSC" ID="2">
+    <Input Plugin="OSC" UID="127.0.0.1" Line="1" Profile="Lambda EncBoard"/>
+    <Feedback Plugin="OSC" UID="127.0.0.1" Line="1"/>
+   </Universe>
+   <Universe Name="MIDI" ID="3">
+    <Input Plugin="MIDI" UID="DJHP_Board MIDI 1" Line="5" Profile="Lambda DJHP_Board">
+     <PluginParameters midichannel="16"/>
+    </Input>
+   </Universe>
   </InputOutputMap>
   <Fixture>
    <Manufacturer>China</Manufacturer>
@@ -2766,12 +2774,8 @@
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
     <Window hMin="1" hMax="256" vMin="0" vMax="256"/>
-    <Pan Position="57">
-     <Input Universe="2" Channel="0"/>
-    </Pan>
-    <Tilt Position="200">
-     <Input Universe="2" Channel="1"/>
-    </Tilt>
+    <Pan Position="127"/>
+    <Tilt Position="127"/>
     <Preset ID="16">
      <Type>FixtureGroup</Type>
      <Name>Wash</Name>
@@ -3212,6 +3216,7 @@
      <Function ID="171"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="3" Channel="6"/>
     </Button>
     <Button Caption="Pos" ID="212" Icon="">
      <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
@@ -3225,6 +3230,7 @@
      <Function ID="172"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="3" Channel="7"/>
     </Button>
     <Button Caption="Val" ID="214" Icon="">
      <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
@@ -3238,6 +3244,7 @@
      <Function ID="173"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="3" Channel="8"/>
     </Button>
    </Frame>
    <SoloFrame Caption="LedBars Pos EFX" ID="215">
@@ -3409,6 +3416,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="3" Channel="12"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">4</Channel>
@@ -3433,6 +3441,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="3" Channel="11"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">3</Channel>
@@ -3457,6 +3466,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="3" Channel="10"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">5</Channel>
@@ -3575,6 +3585,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="3" Channel="13"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
      <Level LowLimit="0" HighLimit="255" Value="0">
@@ -4061,7 +4072,6 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="0" Channel="12"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="7">0</Channel>
@@ -4450,7 +4460,7 @@
      <Action>Flash</Action>
      <Key>S</Key>
      <Intensity Adjust="False">100</Intensity>
-     <Input Universe="0" Channel="0"/>
+     <Input Universe="1" Channel="0"/>
     </Button>
     <Button Caption="Strobe Off" ID="167" Icon="">
      <WindowState Visible="True" X="60" Y="5" Width="50" Height="50"/>
@@ -4639,7 +4649,6 @@
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
      <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="2">5</Channel>
       <Channel Fixture="16">5</Channel>
      </Level>
      <Playback>
@@ -6965,6 +6974,7 @@
      <Function ID="100"/>
      <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="3" Channel="9"/>
     </Button>
     <Button Caption="" ID="255" Icon="">
      <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
@@ -7313,6 +7323,7 @@
      <Function ID="196"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="54068"/>
     </Button>
     <Button Caption="Button 280" ID="280" Icon="">
      <WindowState Visible="True" X="55" Y="5" Width="50" Height="50"/>
@@ -7352,6 +7363,7 @@
      <Function ID="198"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="49853"/>
     </Button>
     <Button Caption="Wide offs" ID="283" Icon="">
      <WindowState Visible="True" X="55" Y="55" Width="50" Height="50"/>
@@ -7365,6 +7377,7 @@
      <Function ID="199"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="61478"/>
     </Button>
     <Button Caption="Spot" ID="284" Icon="">
      <WindowState Visible="True" X="105" Y="55" Width="50" Height="50"/>
@@ -7378,6 +7391,7 @@
      <Function ID="197"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="57775"/>
     </Button>
    </SoloFrame>
    <Frame Caption="16 Colours - LED BeeEye ML 6x15W RGBW" ID="304">
