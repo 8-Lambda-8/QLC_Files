@@ -5402,6 +5402,79 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
     </SoloFrame>
+    <Frame Caption="Midi_RGB_Out" ID="62">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279571733</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="470" Y="280" Width="170" Height="120"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Slider Caption="R_midiOut" ID="64" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="True" X="10" Y="10" Width="50" Height="100"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="3" Channel="18"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="2">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="G_midiOut" ID="68" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="True" X="60" Y="10" Width="50" Height="100"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="3" Channel="19"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="2">1</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="B_midiOut" ID="69" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="True" X="110" Y="10" Width="50" Height="100"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="3" Channel="20"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="2">2</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </Frame>
    </Frame>
    <Frame Caption="FlatPars Col EFX" ID="116">
     <Appearance>
