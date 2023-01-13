@@ -2650,15 +2650,22 @@
    <FixtureVal ID="23">3,8</FixtureVal>
    <FixtureVal ID="24">3,0</FixtureVal>
   </Function>
-  <Monitor DisplayMode="0" ShowLabels="0">
+  <Monitor DisplayMode="1" ShowLabels="1">
    <Font>Cantarell,7,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
-   <Grid Width="3" Height="3" Depth="3" Units="0"/>
-   <FxItem ID="7" XPos="0" YPos="0"/>
-   <FxItem ID="8" XPos="0" YPos="0"/>
-   <FxItem ID="9" XPos="1131.55" YPos="824.866"/>
-   <FxItem ID="10" XPos="1951.2" YPos="1123.05"/>
+   <Grid Width="3" Height="3" Depth="1" Units="0"/>
+   <FxItem ID="0" XPos="1000" YPos="0"/>
+   <FxItem ID="1" XPos="1300" YPos="0"/>
+   <FxItem ID="4" XPos="0" YPos="0"/>
+   <FxItem ID="5" XPos="300" YPos="0"/>
+   <FxItem ID="6" XPos="600" YPos="0"/>
+   <FxItem ID="7" XPos="2000" YPos="0"/>
+   <FxItem ID="8" XPos="2400" YPos="0"/>
+   <FxItem ID="9" XPos="2200" YPos="0"/>
+   <FxItem ID="10" XPos="2600" YPos="0"/>
+   <FxItem ID="23" XPos="0" YPos="400"/>
+   <FxItem ID="24" XPos="300" YPos="400"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
