@@ -31,6 +31,9 @@
      <PluginParameters midichannel="16"/>
     </Input>
    </Universe>
+   <Universe Name="HID" ID="4">
+    <Input Plugin="HID" UID="Sony PLAYSTATION(R)3 Controller" Line="0" Profile="Sony Dualshock3"/>
+   </Universe>
   </InputOutputMap>
   <Fixture>
    <Manufacturer>China</Manufacturer>
@@ -2774,8 +2777,12 @@
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
     <Window hMin="1" hMax="256" vMin="0" vMax="256"/>
-    <Pan Position="127"/>
-    <Tilt Position="127"/>
+    <Pan Position="127">
+     <Input Universe="4" Channel="3"/>
+    </Pan>
+    <Tilt Position="127">
+     <Input Universe="4" Channel="4"/>
+    </Tilt>
     <Preset ID="16">
      <Type>FixtureGroup</Type>
      <Name>Wash</Name>
@@ -3946,7 +3953,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="6">7</Channel>
      </Level>
      <Playback>
@@ -3980,7 +3987,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="4">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="5">5</Channel>
      </Level>
      <Playback>
@@ -3997,7 +4004,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="237">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="6">6</Channel>
      </Level>
      <Playback>
