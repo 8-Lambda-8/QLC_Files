@@ -2746,7 +2746,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </SoloFrame>
-   <XYPad Caption="XY Pad" ID="332" InvertedAppearance="0">
+   <XYPad Caption="XY Pad" ID="332" InvertedAppearance="1">
     <WindowState Visible="True" X="220" Y="330" Width="415" Height="315"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
@@ -2785,10 +2785,10 @@
     </Fixture>
     <Window hMin="1" hMax="256" vMin="0" vMax="256"/>
     <Pan Position="127">
-     <Input Universe="4" Channel="3"/>
+     <Input Universe="2" Channel="60304"/>
     </Pan>
     <Tilt Position="127">
-     <Input Universe="4" Channel="4"/>
+     <Input Universe="2" Channel="64025"/>
     </Tilt>
     <Preset ID="16">
      <Type>FixtureGroup</Type>
