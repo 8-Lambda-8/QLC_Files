@@ -1208,14 +1208,14 @@
    <FixtureVal ID="8">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,0</FixtureVal>
    <FixtureVal ID="9">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,0</FixtureVal>
    <FixtureVal ID="10">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,0</FixtureVal>
-   <FixtureVal ID="2">0,255,1,255,2,255,4,255,5,255</FixtureVal>
-   <FixtureVal ID="3">0,255,1,255,2,255,4,255,5,255</FixtureVal>
-   <FixtureVal ID="11">0,255,1,255,2,255,4,255,5,255</FixtureVal>
-   <FixtureVal ID="12">0,255,1,255,2,255,4,255,5,255</FixtureVal>
-   <FixtureVal ID="13">0,255,1,255,2,255,4,255,5,255</FixtureVal>
-   <FixtureVal ID="14">0,255,1,255,2,255,4,255,5,255</FixtureVal>
-   <FixtureVal ID="15">0,255,1,255,2,255,4,255,5,255</FixtureVal>
-   <FixtureVal ID="16">0,255,1,255,2,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="12">0,255,1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="13">0,255,1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="14">0,255,1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="15">0,255,1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="16">0,255,1,255,2,255,5,255</FixtureVal>
    <FixtureVal ID="0">5,255,6,0,9,255,10,255,11,255,12,255</FixtureVal>
    <FixtureVal ID="1">5,255,6,0,9,255,10,255,11,255,12,255</FixtureVal>
    <FixtureVal ID="23">4,255,5,0,6,255,7,255,8,255,9,255</FixtureVal>
@@ -2840,7 +2840,7 @@
     </Preset>
     <Preset ID="25">
      <Type>FixtureGroup</Type>
-     <Name>70</Name>
+     <Name>S3</Name>
      <Fixture ID="6" Head="0"/>
     </Preset>
     <Preset ID="26">
@@ -3978,7 +3978,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="5">4</Channel>
+      <Channel Fixture="6">4</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -3995,7 +3995,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="5">5</Channel>
+      <Channel Fixture="6">5</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
