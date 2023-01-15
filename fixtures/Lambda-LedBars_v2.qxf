@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.6</Version>
+  <Author>Jakob Wasle</Author>
+ </Creator>
+ <Manufacturer>Lambda</Manufacturer>
+ <Model>LedBars_v2</Model>
+ <Type>LED Bar (Beams)</Type>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="Pos" Preset="PositionYAxis"/>
+ <Channel Name="Value" Preset="PositionXAxis"/>
+ <Channel Name="Dimmer" Default="255" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Red 1" Preset="IntensityRed"/>
+ <Channel Name="Red 2" Preset="IntensityRed"/>
+ <Channel Name="Red 3" Preset="IntensityRed"/>
+ <Channel Name="Red 4" Preset="IntensityRed"/>
+ <Channel Name="Green 1" Preset="IntensityGreen"/>
+ <Channel Name="Green 2" Preset="IntensityGreen"/>
+ <Channel Name="Green 3" Preset="IntensityGreen"/>
+ <Channel Name="Green 4" Preset="IntensityGreen"/>
+ <Channel Name="Blue 1" Preset="IntensityBlue"/>
+ <Channel Name="Blue 2" Preset="IntensityBlue"/>
+ <Channel Name="Blue 3" Preset="IntensityBlue"/>
+ <Channel Name="Blue 4" Preset="IntensityBlue"/>
+ <Channel Name="Pos 1" Preset="PositionYAxis"/>
+ <Channel Name="Pos 2" Preset="PositionYAxis"/>
+ <Channel Name="Pos 3" Preset="PositionYAxis"/>
+ <Channel Name="Pos 4" Preset="PositionYAxis"/>
+ <Channel Name="Value 1" Preset="PositionXAxis"/>
+ <Channel Name="Value 2" Preset="PositionXAxis"/>
+ <Channel Name="Value 3" Preset="PositionXAxis"/>
+ <Channel Name="Value 4" Preset="PositionXAxis"/>
+ <Channel Name="Dimmer 1" Default="255" Preset="IntensityDimmer"/>
+ <Channel Name="Dimmer 2" Default="255" Preset="IntensityDimmer"/>
+ <Channel Name="Dimmer 3" Default="255" Preset="IntensityDimmer"/>
+ <Channel Name="Dimmer 4" Default="255" Preset="IntensityDimmer"/>
+ <Channel Name="Master dimmer" Preset="IntensityMasterDimmer"/>
+ <Mode Name="Simple">
+  <Channel Number="0">Red</Channel>
+  <Channel Number="1">Green</Channel>
+  <Channel Number="2">Blue</Channel>
+  <Channel Number="3">Pos</Channel>
+  <Channel Number="4">Value</Channel>
+  <Channel Number="5">Dimmer</Channel>
+ </Mode>
+ <Mode Name="Head">
+  <Physical>
+   <Bulb Type="LED" Lumens="1000" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="1500" Height="1100" Depth="300"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Head" PanMax="0" TiltMax="0"/>
+   <Layout Width="1" Height="60"/>
+   <Technical PowerConsumption="20" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Red 1</Channel>
+  <Channel Number="1">Red 2</Channel>
+  <Channel Number="2">Red 3</Channel>
+  <Channel Number="3">Red 4</Channel>
+  <Channel Number="4">Green 1</Channel>
+  <Channel Number="5">Green 2</Channel>
+  <Channel Number="6">Green 3</Channel>
+  <Channel Number="7">Green 4</Channel>
+  <Channel Number="8">Blue 1</Channel>
+  <Channel Number="9">Blue 2</Channel>
+  <Channel Number="10">Blue 3</Channel>
+  <Channel Number="11">Blue 4</Channel>
+  <Channel Number="12">Pos 1</Channel>
+  <Channel Number="13">Pos 2</Channel>
+  <Channel Number="14">Pos 3</Channel>
+  <Channel Number="15">Pos 4</Channel>
+  <Channel Number="16">Value 1</Channel>
+  <Channel Number="17">Value 2</Channel>
+  <Channel Number="18">Value 3</Channel>
+  <Channel Number="19">Value 4</Channel>
+  <Channel Number="20">Dimmer 1</Channel>
+  <Channel Number="21">Dimmer 2</Channel>
+  <Channel Number="22">Dimmer 3</Channel>
+  <Channel Number="23">Dimmer 4</Channel>
+  <Channel Number="24">Master dimmer</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>4</Channel>
+   <Channel>8</Channel>
+   <Channel>12</Channel>
+   <Channel>16</Channel>
+   <Channel>20</Channel>
+  </Head>
+  <Head>
+   <Channel>1</Channel>
+   <Channel>5</Channel>
+   <Channel>9</Channel>
+   <Channel>13</Channel>
+   <Channel>17</Channel>
+   <Channel>21</Channel>
+  </Head>
+  <Head>
+   <Channel>2</Channel>
+   <Channel>6</Channel>
+   <Channel>10</Channel>
+   <Channel>14</Channel>
+   <Channel>18</Channel>
+   <Channel>22</Channel>
+  </Head>
+  <Head>
+   <Channel>3</Channel>
+   <Channel>7</Channel>
+   <Channel>11</Channel>
+   <Channel>15</Channel>
+   <Channel>19</Channel>
+   <Channel>23</Channel>
+  </Head>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="1000" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="100" Height="1100" Depth="300"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Head" PanMax="0" TiltMax="0"/>
+  <Layout Width="1" Height="60"/>
+  <Technical PowerConsumption="20" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
