@@ -3343,10 +3343,10 @@
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Time>3000</Time>
     <Key>Space</Key>
-    <Function FadeIn="0" FadeOut="0" Duration="6">165</Function>
-    <Function FadeIn="0" FadeOut="0" Duration="6">114</Function>
-    <Function FadeIn="0" FadeOut="0" Duration="6">164</Function>
-    <Function FadeIn="0" FadeOut="0" Duration="6">106</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="7">165</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="7">114</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="7">164</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="7">106</Function>
     <Function FadeIn="0" FadeOut="0" Duration="7">87</Function>
    </SpeedDial>
    <SoloFrame Caption="LedBars Val EFX" ID="233">
@@ -3715,8 +3715,8 @@
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Time>3000</Time>
     <Key>Space</Key>
-    <Function FadeIn="0" FadeOut="0" Duration="6">57</Function>
-    <Function FadeIn="0" FadeOut="0" Duration="6">170</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">57</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">170</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">80</Function>
    </SpeedDial>
    <SoloFrame Caption="Wash ML SoundMode" ID="75">
@@ -3775,7 +3775,12 @@
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Time>3000</Time>
     <Key>Space</Key>
-    <Function FadeIn="0" FadeOut="0" Duration="6">16</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">109</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">82</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">110</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">108</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">92</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">16</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">195</Function>
    </SpeedDial>
    <Clock Type="Clock" Caption="" ID="100">
@@ -4498,6 +4503,10 @@
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Time>3000</Time>
     <Key>Space</Key>
+    <Function FadeIn="0" FadeOut="0" Duration="8">169</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">168</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">167</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">166</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">163</Function>
    </SpeedDial>
    <Frame Caption="" ID="351">
