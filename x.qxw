@@ -29,9 +29,7 @@
     <Input Plugin="MIDI" UID="DJHP_Board MIDI 1" Line="5" Profile="Lambda DJHP_Board">
      <PluginParameters midichannel="16"/>
     </Input>
-   </Universe>
-   <Universe Name="HID" ID="4">
-    <Input Plugin="HID" UID="Sony PLAYSTATION(R)3 Controller" Line="0" Profile="Sony Dualshock3"/>
+    <Feedback Plugin="MIDI" UID="DJHP_Board2 MIDI 1" Line="1"/>
    </Universe>
   </InputOutputMap>
   <Fixture>
