@@ -7412,32 +7412,6 @@
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="2" Channel="54068"/>
     </Button>
-    <Button Caption="Button 280" ID="280" Icon="">
-     <WindowState Visible="True" X="55" Y="5" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="4294967295"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="Button 281" ID="281" Icon="">
-     <WindowState Visible="True" X="105" Y="5" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="4294967295"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
     <Button Caption="Wide" ID="282" Icon="">
      <WindowState Visible="True" X="5" Y="55" Width="50" Height="50"/>
      <Appearance>
@@ -7467,7 +7441,7 @@
      <Input Universe="2" Channel="61478"/>
     </Button>
     <Button Caption="Spot" ID="284" Icon="">
-     <WindowState Visible="True" X="105" Y="55" Width="50" Height="50"/>
+     <WindowState Visible="True" X="55" Y="5" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7480,6 +7454,24 @@
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="2" Channel="57775"/>
     </Button>
+    <Slider Caption="Rotation" ID="160" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="105" Y="5" Width="50" Height="100"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="135">
+      <Channel Fixture="23">3</Channel>
+      <Channel Fixture="24">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
    </SoloFrame>
    <Frame Caption="16 Colours - LED BeeEye ML 6x15W RGBW" ID="304">
     <Appearance>
