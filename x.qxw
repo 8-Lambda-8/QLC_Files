@@ -3341,9 +3341,6 @@
     </Appearance>
     <Visibility>116</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Tap>
-     <Input Universe="0" Channel="1"/>
-    </Tap>
     <Time>3000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">165</Function>
@@ -3716,9 +3713,6 @@
     </Appearance>
     <Visibility>116</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Tap>
-     <Input Universe="0" Channel="1"/>
-    </Tap>
     <Time>3000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">57</Function>
@@ -4489,7 +4483,6 @@
      <Action>Flash</Action>
      <Key>D</Key>
      <Intensity Adjust="False">100</Intensity>
-     <Input Universe="0" Channel="3"/>
     </Button>
    </SoloFrame>
    <SpeedDial Caption="Col LED Bars" ID="350">
@@ -4503,9 +4496,6 @@
     </Appearance>
     <Visibility>116</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Tap>
-     <Input Universe="0" Channel="1"/>
-    </Tap>
     <Time>3000</Time>
     <Key>Space</Key>
     <Function FadeIn="0" FadeOut="0" Duration="6">163</Function>
@@ -7280,7 +7270,6 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="0" Channel="10"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="0">5</Channel>
@@ -7335,7 +7324,6 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="0" Channel="65546"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="1">5</Channel>
