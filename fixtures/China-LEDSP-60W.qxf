@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4 GIT</Version>
+  <Author>Lambda</Author>
+ </Creator>
+ <Manufacturer>China</Manufacturer>
+ <Model>LEDSP 60W</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Pan" Preset="PositionPan"/>
+ <Channel Name="Pan fine" Preset="PositionPanFine"/>
+ <Channel Name="Tilt" Preset="PositionTilt"/>
+ <Channel Name="Tilt fine" Preset="PositionTiltFine"/>
+ <Channel Name="Color wheel">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="10" Preset="ColorMacro" Res1="#ffffff">White</Capability>
+  <Capability Min="11" Max="21" Preset="ColorDoubleMacro" Res1="#ffffff" Res2="#a51d2d">White/Red</Capability>
+  <Capability Min="22" Max="32" Preset="ColorMacro" Res1="#a51d2d">Red</Capability>
+  <Capability Min="33" Max="43" Preset="ColorDoubleMacro" Res1="#a51d2d" Res2="#c64600">Red/Orange</Capability>
+  <Capability Min="44" Max="54" Preset="ColorMacro" Res1="#c64600">Orange</Capability>
+  <Capability Min="55" Max="65" Preset="ColorDoubleMacro" Res1="#c64600" Res2="#e5a50a">Orange/Yellow</Capability>
+  <Capability Min="66" Max="76" Preset="ColorMacro" Res1="#f5c211">Yellow</Capability>
+  <Capability Min="77" Max="87" Preset="ColorDoubleMacro" Res1="#f5c211" Res2="#26a269">Yellow/Green</Capability>
+  <Capability Min="88" Max="98" Preset="ColorMacro" Res1="#26a269">Green</Capability>
+  <Capability Min="99" Max="109" Preset="ColorDoubleMacro" Res1="#26a269" Res2="#1a5fb4">Green/Blue</Capability>
+  <Capability Min="110" Max="120" Preset="ColorMacro" Res1="#1a5fb4">Blue</Capability>
+  <Capability Min="121" Max="131" Preset="ColorDoubleMacro" Res1="#1a5fb4" Res2="#ff00ff">Blue/Magenta</Capability>
+  <Capability Min="132" Max="142" Preset="ColorMacro" Res1="#ff00ff">Magenta</Capability>
+  <Capability Min="143" Max="153" Preset="ColorDoubleMacro" Res1="#ff00ff" Res2="#00ffff">Magenta/Cyan</Capability>
+  <Capability Min="154" Max="159" Preset="ColorMacro" Res1="#00ffff">Cyan</Capability>
+  <Capability Min="160" Max="207" Preset="RotationCounterClockwiseSlowToFast">Color Wheel CCW</Capability>
+  <Capability Min="208" Max="255" Preset="RotationClockwiseSlowToFast">Color Wheel CW</Capability>
+ </Channel>
+ <Channel Name="Gobo wheel">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Preset="GoboMacro" Res1="lambda/gobo_spot.png">Spot</Capability>
+  <Capability Min="10" Max="19" Preset="GoboMacro" Res1="lambda/gobo_circle:3.png">Circle/3</Capability>
+  <Capability Min="20" Max="29" Preset="GoboMacro" Res1="lambda/gobo_dotsCircle.png">Dots Circle</Capability>
+  <Capability Min="30" Max="39" Preset="GoboMacro" Res1="lambda/gobo_3dotsCircle.png">3 Dots Circle</Capability>
+  <Capability Min="40" Max="49" Preset="GoboMacro" Res1="lambda/gobo_irregular.png">Irregular</Capability>
+  <Capability Min="50" Max="59" Preset="GoboMacro" Res1="lambda/gobo_irregularDots.png">Irregular Dots</Capability>
+  <Capability Min="60" Max="69" Preset="GoboMacro" Res1="lambda/gobo_tornado.png">Tornado</Capability>
+  <Capability Min="70" Max="79" Preset="GoboMacro" Res1="lambda/gobo_zebra.png">Zebra</Capability>
+  <Capability Min="80" Max="89" Preset="GoboShakeMacro" Res1="lambda/gobo_zebra.png">Zebra Bouncing</Capability>
+  <Capability Min="90" Max="99" Preset="GoboShakeMacro" Res1="lambda/gobo_tornado.png">Tornado Bouncing</Capability>
+  <Capability Min="100" Max="109" Preset="GoboShakeMacro" Res1="lambda/gobo_irregularDots.png">Irregular Dots Bouncing</Capability>
+  <Capability Min="110" Max="119" Preset="GoboShakeMacro" Res1="lambda/gobo_irregular.png">Irregular Bouncing</Capability>
+  <Capability Min="120" Max="129" Preset="GoboShakeMacro" Res1="lambda/gobo_3dotsCircle.png">3 Dots Circle Bouncing</Capability>
+  <Capability Min="130" Max="139" Preset="GoboShakeMacro" Res1="lambda/gobo_dotsCircle.png">Dots Circle Bouncing</Capability>
+  <Capability Min="140" Max="149" Preset="GoboShakeMacro" Res1="lambda/gobo_circle:3.png">Circle/3 Bouncing</Capability>
+  <Capability Min="150" Max="200" Preset="RotationCounterClockwiseSlowToFast">Gobo Wheel CCW</Capability>
+  <Capability Min="201" Max="255" Preset="RotationClockwiseSlowToFast">Gobo Wheel CW</Capability>
+ </Channel>
+ <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Dimmer" Preset="IntensityDimmer"/>
+ <Channel Name="Pan/Tilt speed" Preset="SpeedPanTiltFastSlow"/>
+ <Channel Name="Macro Function">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="50">No Function</Capability>
+  <Capability Min="51" Max="100">Animation 1</Capability>
+  <Capability Min="101" Max="150">Animation2</Capability>
+ </Channel>
+ <Channel Name="Reset">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="254">No function</Capability>
+  <Capability Min="255" Max="255" Preset="ResetAll">Reset</Capability>
+ </Channel>
+ <Mode Name="Default">
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Pan fine</Channel>
+  <Channel Number="2">Tilt</Channel>
+  <Channel Number="3">Tilt fine</Channel>
+  <Channel Number="4">Color wheel</Channel>
+  <Channel Number="5">Gobo wheel</Channel>
+  <Channel Number="6">Strobe</Channel>
+  <Channel Number="7">Dimmer</Channel>
+  <Channel Number="8">Pan/Tilt speed</Channel>
+  <Channel Number="9">Macro Function</Channel>
+  <Channel Number="10">Reset</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Head" PanMax="540" TiltMax="200"/>
+  <Technical PowerConsumption="75" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
