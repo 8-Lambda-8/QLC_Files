@@ -12,12 +12,11 @@
     <Input Plugin="E1.31" UID="127.0.0.1" Line="1">
      <PluginParameters multicast="0" ucastPort="5569" universe="1"/>
     </Input>
-    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AB0K8ZGC)" Line="0">
-     <PluginParameters UniverseChannels="192"/>
+    <Output Plugin="ArtNet" UID="10.0.0.10" Line="0">
+     <PluginParameters outputIP="10.0.0.222"/>
     </Output>
    </Universe>
    <Universe Name="Audio" ID="1">
-    <Input Plugin="HID" UID="None" Line="1"/>
     <Output Plugin="E1.31" UID="127.0.0.1" Line="1">
      <PluginParameters UniverseChannels="39" multicast="0" priority="100" transmitMode="Full" ucastIP="127.0.0.1" ucastPort="5568" universe="2"/>
     </Output>
