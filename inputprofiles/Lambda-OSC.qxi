@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4</Version>
+  <Author>jakob</Author>
+ </Creator>
+ <Manufacturer>Lambda</Manufacturer>
+ <Model>EncBoard</Model>
+ <Type>OSC</Type>
+ <Channel Number="17610">
+  <Name>/joy/R</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="33945">
+  <Name>/key/5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="36905">
+  <Name>/wheel/tilt</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="38160">
+  <Name>/key/4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="49556">
+  <Name>/wheel/pan</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="49853">
+  <Name>/key/1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="54068">
+  <Name>/key/0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="57775">
+  <Name>/key/3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="60304">
+  <Name>/joy/X</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="61478">
+  <Name>/key/2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="64025">
+  <Name>/joy/Y</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+</InputProfile>

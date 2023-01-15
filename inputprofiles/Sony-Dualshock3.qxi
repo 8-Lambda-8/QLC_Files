@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.6</Version>
+  <Author>Jakob Wasle</Author>
+ </Creator>
+ <Manufacturer>Sony</Manufacturer>
+ <Model>Dualshock3</Model>
+ <Type>HID</Type>
+ <Channel Number="0">
+  <Name>Slider 1</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="10">Relative</Movement>
+ </Channel>
+ <Channel Number="1">
+  <Name>Slider 2</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="2">
+  <Name>Slider 3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="3">
+  <Name>Slider 4</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="4">
+  <Name>Slider 5</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="5">
+  <Name>Slider 6</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="6">
+  <Name>Button 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="7">
+  <Name>Button 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="8">
+  <Name>Button 9</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="9">
+  <Name>Button 10</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="10">
+  <Name>Button 11</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="11">
+  <Name>Button 12</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="12">
+  <Name>Button 13</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="13">
+  <Name>Button 14</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="14">
+  <Name>Button 15</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="15">
+  <Name>Button 16</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="16">
+  <Name>Button 17</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>Button 18</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="18">
+  <Name>Button 19</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="19">
+  <Name>Button 20</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>Button 21</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="21">
+  <Name>Button 22</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="22">
+  <Name>Button 23</Name>
+  <Type>Button</Type>
+ </Channel>
+</InputProfile>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.6</Version>
+  <Author>Jakob Wasle</Author>
+ </Creator>
+ <Manufacturer>Lambda</Manufacturer>
+ <Model>DJHP_Board</Model>
+ <Type>MIDI</Type>
+ <Channel Number="0">
+  <Name>TouchBtn1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="1">
+  <Name>TouchBtn2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="2">
+  <Name>TouchBtn3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="3">
+  <Name>TouchBtn4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="4">
+  <Name>TouchBtn5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="5">
+  <Name>TouchBtn6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="6">
+  <Name>Button1</Name>
+  <Type>Button</Type>
+  <ExtraPress>True</ExtraPress>
+ </Channel>
+ <Channel Number="7">
+  <Name>Button2</Name>
+  <Type>Button</Type>
+  <ExtraPress>True</ExtraPress>
+ </Channel>
+ <Channel Number="8">
+  <Name>Button3</Name>
+  <Type>Button</Type>
+  <ExtraPress>True</ExtraPress>
+ </Channel>
+ <Channel Number="9">
+  <Name>Button4</Name>
+  <Type>Button</Type>
+  <ExtraPress>True</ExtraPress>
+ </Channel>
+ <Channel Number="10">
+  <Name>Fader1</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="11">
+  <Name>Fader2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="12">
+  <Name>Fader3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="13">
+  <Name>Fader4</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="14">
+  <Name>FaderReset1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="15">
+  <Name>FaderReset2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="16">
+  <Name>FaderReset3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>FaderReset4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="18">
+  <Name>LogoLedR</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="19">
+  <Name>LogoLedG</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>LogoLedB</Name>
+  <Type>Knob</Type>
+ </Channel>
+</InputProfile>
