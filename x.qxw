@@ -22,7 +22,7 @@
     </Output>
    </Universe>
    <Universe Name="OSC" ID="2">
-    <Input Plugin="OSC" UID="127.0.0.1" Line="1" Profile="Lambda EncBoard"/>
+    <Input Plugin="OSC" UID="127.0.0.1" Line="1" Profile="Lambda OSC"/>
     <Feedback Plugin="OSC" UID="127.0.0.1" Line="1"/>
    </Universe>
    <Universe Name="MIDI" ID="3">
