@@ -7,7 +7,7 @@
   <Author>jakob</Author>
  </Creator>
  <Manufacturer>Lambda</Manufacturer>
- <Model>EncBoard</Model>
+ <Model>SlipOSC</Model>
  <Type>OSC</Type>
  <Channel Number="17610">
   <Name>/joy/R</Name>
