@@ -4266,7 +4266,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1640" Y="435" Width="110" Height="110"/>
+    <WindowState Visible="True" X="1635" Y="435" Width="110" Height="110"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -4328,7 +4328,7 @@
     </Button>
    </SoloFrame>
    <SpeedDial Caption="Ani LED Bars" ID="203">
-    <WindowState Visible="True" X="1640" Y="560" Width="200" Height="105"/>
+    <WindowState Visible="True" X="1635" Y="560" Width="200" Height="105"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4354,7 +4354,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1640" Y="680" Width="110" Height="110"/>
+    <WindowState Visible="True" X="1635" Y="680" Width="110" Height="110"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -5437,7 +5437,7 @@
     <Function FadeIn="0" FadeOut="0" Duration="8">34</Function>
    </SpeedDial>
    <Button Caption="Wash Center Flash" ID="164" Icon="">
-    <WindowState Visible="True" X="5" Y="890" Width="95" Height="55"/>
+    <WindowState Visible="True" X="5" Y="895" Width="90" Height="45"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -6483,7 +6483,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="930" Y="795" Width="200" Height="200"/>
+    <WindowState Visible="True" X="940" Y="805" Width="190" Height="190"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -6491,7 +6491,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="EFX Rainbow" ID="134" Icon="">
-     <WindowState Visible="True" X="10" Y="10" Width="60" Height="60"/>
+     <WindowState Visible="True" X="5" Y="5" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6504,7 +6504,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="EFX Rainbow Staggered" ID="135" Icon="">
-     <WindowState Visible="True" X="70" Y="10" Width="60" Height="60"/>
+     <WindowState Visible="True" X="65" Y="5" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6517,7 +6517,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="" ID="137" Icon="">
-     <WindowState Visible="True" X="130" Y="10" Width="60" Height="60"/>
+     <WindowState Visible="True" X="125" Y="5" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6530,7 +6530,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="EFX Red" ID="138" Icon="">
-     <WindowState Visible="True" X="10" Y="70" Width="60" Height="60"/>
+     <WindowState Visible="True" X="5" Y="65" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6543,7 +6543,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="EFX Green" ID="140" Icon="">
-     <WindowState Visible="True" X="70" Y="70" Width="60" Height="60"/>
+     <WindowState Visible="True" X="65" Y="65" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6556,7 +6556,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="EFX Blue" ID="141" Icon="">
-     <WindowState Visible="True" X="130" Y="70" Width="60" Height="60"/>
+     <WindowState Visible="True" X="125" Y="65" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6569,7 +6569,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="" ID="168" Icon="">
-     <WindowState Visible="True" X="10" Y="130" Width="60" Height="60"/>
+     <WindowState Visible="True" X="5" Y="125" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6582,7 +6582,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="" ID="169" Icon="">
-     <WindowState Visible="True" X="70" Y="130" Width="60" Height="60"/>
+     <WindowState Visible="True" X="65" Y="125" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6595,7 +6595,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="" ID="171" Icon="">
-     <WindowState Visible="True" X="130" Y="130" Width="60" Height="60"/>
+     <WindowState Visible="True" X="125" Y="125" Width="60" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7465,7 +7465,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1690" Y="825" Width="170" Height="170"/>
+    <WindowState Visible="True" X="1700" Y="835" Width="160" Height="160"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -7473,7 +7473,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Pos Full" ID="231" Icon="">
-     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="5" Y="5" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7486,7 +7486,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Pos Half" ID="246" Icon="">
-     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="55" Y="5" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7499,7 +7499,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Pos Zero" ID="248" Icon="">
-     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="105" Y="5" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7512,7 +7512,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Val Full" ID="249" Icon="">
-     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="5" Y="55" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7525,7 +7525,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Val Half" ID="251" Icon="">
-     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="55" Y="55" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7539,7 +7539,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Val Zero" ID="252" Icon="">
-     <WindowState Visible="True" X="110" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="105" Y="55" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7553,7 +7553,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="All ZERO" ID="254" Icon="">
-     <WindowState Visible="True" X="110" Y="110" Width="50" Height="50"/>
+     <WindowState Visible="True" X="105" Y="105" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7567,7 +7567,7 @@
      <Input Universe="3" Channel="9"/>
     </Button>
     <Button Caption="" ID="255" Icon="">
-     <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
+     <WindowState Visible="True" X="5" Y="105" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7580,7 +7580,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="" ID="257" Icon="">
-     <WindowState Visible="True" X="60" Y="110" Width="50" Height="50"/>
+     <WindowState Visible="True" X="55" Y="105" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8821,7 +8821,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="18">0</Channel>
      </Level>
@@ -8838,7 +8838,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="18">1</Channel>
      </Level>
@@ -8855,7 +8855,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="18">2</Channel>
       <Channel Fixture="18">3</Channel>
@@ -8874,7 +8874,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="18">5</Channel>
      </Level>
@@ -8891,7 +8891,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">0</Channel>
      </Level>
@@ -8908,7 +8908,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">1</Channel>
      </Level>
@@ -8925,7 +8925,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">2</Channel>
       <Channel Fixture="19">3</Channel>
@@ -8944,7 +8944,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">5</Channel>
      </Level>
