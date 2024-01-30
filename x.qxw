@@ -10,7 +10,7 @@
   <InputOutputMap>
    <Universe Name="Main" ID="0">
     <Output Plugin="E1.31" UID="127.0.0.1" Line="1">
-     <PluginParameters UniverseChannels="217" multicast="0" priority="100" transmitMode="Full" ucastIP="127.0.0.1" ucastPort="5568" universe="1"/>
+     <PluginParameters UniverseChannels="253" multicast="0" priority="100" transmitMode="Full" ucastIP="127.0.0.1" ucastPort="5568" universe="1"/>
     </Output>
    </Universe>
    <Universe Name="LedBars" ID="1" Passthrough="True">
@@ -373,6 +373,66 @@
    <Address>8</Address>
    <Channels>1</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>RGBW Spot</Model>
+   <Mode>6CH</Mode>
+   <ID>34</ID>
+   <Name>RGBW Spot #1</Name>
+   <Universe>0</Universe>
+   <Address>217</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>RGBW Spot</Model>
+   <Mode>6CH</Mode>
+   <ID>35</ID>
+   <Name>RGBW Spot #2</Name>
+   <Universe>0</Universe>
+   <Address>223</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>RGBW Spot</Model>
+   <Mode>6CH</Mode>
+   <ID>36</ID>
+   <Name>RGBW Spot #3</Name>
+   <Universe>0</Universe>
+   <Address>229</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>RGBW Spot</Model>
+   <Mode>6CH</Mode>
+   <ID>37</ID>
+   <Name>RGBW Spot #4</Name>
+   <Universe>0</Universe>
+   <Address>235</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>RGBW Spot</Model>
+   <Mode>6CH</Mode>
+   <ID>38</ID>
+   <Name>RGBW Spot #5</Name>
+   <Universe>0</Universe>
+   <Address>241</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>China</Manufacturer>
+   <Model>RGBW Spot</Model>
+   <Mode>6CH</Mode>
+   <ID>39</ID>
+   <Name>RGBW Spot #6</Name>
+   <Universe>0</Universe>
+   <Address>247</Address>
+   <Channels>6</Channels>
+  </Fixture>
   <FixtureGroup ID="0">
    <Name>LED Flat Par</Name>
    <Size X="8" Y="1"/>
@@ -411,6 +471,16 @@
    <Head X="0" Y="0" Fixture="17">0</Head>
    <Head X="1" Y="0" Fixture="18">0</Head>
    <Head X="2" Y="0" Fixture="19">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="4">
+   <Name>RGBW Spot</Name>
+   <Size X="6" Y="1"/>
+   <Head X="0" Y="0" Fixture="34">0</Head>
+   <Head X="1" Y="0" Fixture="35">0</Head>
+   <Head X="2" Y="0" Fixture="36">0</Head>
+   <Head X="3" Y="0" Fixture="37">0</Head>
+   <Head X="4" Y="0" Fixture="38">0</Head>
+   <Head X="5" Y="0" Fixture="39">0</Head>
   </FixtureGroup>
   <ChannelsGroup ID="0" Name="RED" Value="0">0,1,1,1,2,1,3,1,11,9,12,9,13,6,14,6,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</ChannelsGroup>
   <ChannelsGroup ID="1" Name="GREEN" Value="0">0,2,1,2,2,2,3,2,11,10,12,10,13,7,14,7,20,1,21,1,22,1,23,1,24,1,25,1,26,1,27,1</ChannelsGroup>
@@ -3213,6 +3283,99 @@
    <FixtureVal ID="15">3,25</FixtureVal>
    <FixtureVal ID="16">3,25</FixtureVal>
   </Function>
+  <Function ID="214" Type="Chaser" Name="16 Colours chaser - RGBW Spot">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+  </Function>
+  <Function ID="215" Type="RGBMatrix" Name="Spot chase">
+   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="216" Type="Scene" Name="RGBW Spot" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="37">0,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+  </Function>
+  <Function ID="217" Type="Sequence" Name="Spot chase Sequence" BoundScene="216">
+   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0" Values="6">34:0,254</Step>
+   <Step Number="1" FadeIn="0" Hold="100" FadeOut="0" Values="6">35:0,255</Step>
+   <Step Number="2" FadeIn="0" Hold="100" FadeOut="0" Values="6">36:0,255</Step>
+   <Step Number="3" FadeIn="0" Hold="100" FadeOut="0" Values="6">37:0,255</Step>
+   <Step Number="4" FadeIn="0" Hold="100" FadeOut="0" Values="6">38:0,255</Step>
+   <Step Number="5" FadeIn="0" Hold="100" FadeOut="0" Values="6">39:0,255</Step>
+  </Function>
+  <Function ID="218" Type="Sequence" Name="Spot chase Sequence Sym" BoundScene="219">
+   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0" Values="6">34:0,255:39:0,255</Step>
+   <Step Number="1" FadeIn="0" Hold="100" FadeOut="0" Values="6">35:0,255:38:0,255</Step>
+   <Step Number="2" FadeIn="0" Hold="100" FadeOut="0" Values="6">36:0,255:37:0,255</Step>
+  </Function>
+  <Function ID="219" Type="Scene" Name="RGBW Spot" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="37">0,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+  </Function>
+  <Function ID="220" Type="Sequence" Name="Spot chase Sequence Single" BoundScene="221">
+   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0" Values="6">34:0,254</Step>
+   <Step Number="1" FadeIn="0" Hold="100" FadeOut="0" Values="6">35:0,255</Step>
+   <Step Number="2" FadeIn="0" Hold="100" FadeOut="0" Values="6">36:0,255</Step>
+   <Step Number="3" FadeIn="0" Hold="100" FadeOut="0" Values="6">37:0,255</Step>
+   <Step Number="4" FadeIn="0" Hold="100" FadeOut="0" Values="6">38:0,255</Step>
+   <Step Number="5" FadeIn="0" Hold="100" FadeOut="0" Values="6">39:0,255</Step>
+  </Function>
+  <Function ID="221" Type="Scene" Name="RGBW Spot" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="37">0,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+  </Function>
+  <Function ID="222" Type="Sequence" Name="Spot chase Sequence Sym Single" BoundScene="223">
+   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0" Values="6">34:0,255:39:0,255</Step>
+   <Step Number="1" FadeIn="0" Hold="100" FadeOut="0" Values="6">35:0,255:38:0,255</Step>
+   <Step Number="2" FadeIn="0" Hold="100" FadeOut="0" Values="6">36:0,255:37:0,255</Step>
+  </Function>
+  <Function ID="223" Type="Scene" Name="RGBW Spot" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="37">0,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+  </Function>
   <Monitor DisplayMode="1" ShowLabels="1">
    <Font>Cantarell,7,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -3269,7 +3432,7 @@
      <ForegroundColor>Default</ForegroundColor>
      <BackgroundColor>Default</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
-     <Font>Noto Sans,44,-1,0,87,0,0,0,0,0,Black</Font>
+     <Font>Noto Sans,44,-1,0,87,0,0,0,0,0</Font>
     </Appearance>
    </Clock>
    <Button Caption="BlackFlasch" ID="206" Icon="">
@@ -4208,7 +4371,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1745" Y="10" Width="70" Height="170"/>
+    <WindowState Visible="True" X="1745" Y="5" Width="70" Height="170"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -4498,7 +4661,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1560" Y="10" Width="185" Height="170"/>
+    <WindowState Visible="True" X="1560" Y="5" Width="185" Height="170"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -4770,7 +4933,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="480" Y="650" Width="260" Height="245"/>
+    <WindowState Visible="True" X="430" Y="650" Width="260" Height="245"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -5038,7 +5201,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="750" Y="495" Width="380" Height="295"/>
+    <WindowState Visible="True" X="690" Y="650" Width="380" Height="295"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -5457,7 +5620,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="785" Y="930" Width="115" Height="60"/>
+    <WindowState Visible="True" X="570" Y="940" Width="115" Height="60"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -6447,7 +6610,7 @@
       <Input Universe="3" Channel="19"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="34">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="20">1</Channel>
       </Level>
       <Playback>
@@ -6466,7 +6629,7 @@
       <Input Universe="3" Channel="20"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="242">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="20">2</Channel>
       </Level>
       <Playback>
@@ -6483,7 +6646,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="940" Y="805" Width="190" Height="190"/>
+    <WindowState Visible="True" X="945" Y="455" Width="190" Height="190"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -7736,7 +7899,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="13">6</Channel>
       <Channel Fixture="13">7</Channel>
       <Channel Fixture="13">8</Channel>
@@ -7811,7 +7974,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="14">6</Channel>
       <Channel Fixture="14">7</Channel>
       <Channel Fixture="14">8</Channel>
@@ -7885,7 +8048,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="15">6</Channel>
       <Channel Fixture="15">7</Channel>
       <Channel Fixture="15">8</Channel>
@@ -7959,7 +8122,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="16">6</Channel>
       <Channel Fixture="16">7</Channel>
       <Channel Fixture="16">8</Channel>
@@ -8111,7 +8274,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">9</Channel>
       <Channel Fixture="12">10</Channel>
       <Channel Fixture="12">11</Channel>
@@ -8643,7 +8806,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="750" Y="240" Width="250" Height="245"/>
+    <WindowState Visible="True" X="690" Y="400" Width="250" Height="245"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -8952,6 +9115,255 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
+   </Frame>
+   <Frame Caption="" ID="358">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="690" Y="195" Width="235" Height="200"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Shutter" ID="367" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="5" Y="5" Width="60" Height="190"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="34">0</Channel>
+      <Channel Fixture="35">0</Channel>
+      <Channel Fixture="36">0</Channel>
+      <Channel Fixture="37">0</Channel>
+      <Channel Fixture="38">0</Channel>
+      <Channel Fixture="39">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="RGB" ID="368" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="65" Y="5" Width="60" Height="190"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="34">1</Channel>
+      <Channel Fixture="34">2</Channel>
+      <Channel Fixture="34">3</Channel>
+      <Channel Fixture="35">1</Channel>
+      <Channel Fixture="35">2</Channel>
+      <Channel Fixture="35">3</Channel>
+      <Channel Fixture="36">1</Channel>
+      <Channel Fixture="36">2</Channel>
+      <Channel Fixture="36">3</Channel>
+      <Channel Fixture="37">1</Channel>
+      <Channel Fixture="37">2</Channel>
+      <Channel Fixture="37">3</Channel>
+      <Channel Fixture="38">1</Channel>
+      <Channel Fixture="38">2</Channel>
+      <Channel Fixture="38">3</Channel>
+      <Channel Fixture="39">1</Channel>
+      <Channel Fixture="39">2</Channel>
+      <Channel Fixture="39">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="W" ID="369" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="125" Y="5" Width="45" Height="190"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="34">4</Channel>
+      <Channel Fixture="35">4</Channel>
+      <Channel Fixture="36">4</Channel>
+      <Channel Fixture="37">4</Channel>
+      <Channel Fixture="38">4</Channel>
+      <Channel Fixture="39">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Effect" ID="370" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="170" Y="5" Width="60" Height="190"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="34">5</Channel>
+      <Channel Fixture="35">5</Channel>
+      <Channel Fixture="36">5</Channel>
+      <Channel Fixture="37">5</Channel>
+      <Channel Fixture="38">5</Channel>
+      <Channel Fixture="39">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame Caption="" ID="409">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="930" Y="190" Width="170" Height="170"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="chase" ID="410" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="217"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="chase Single" ID="411" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="220"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="chase Sym" ID="412" Icon="">
+     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="218"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="chase Sym Single" ID="413" Icon="">
+     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="222"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 414" ID="414" Icon="">
+     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 415" ID="415" Icon="">
+     <WindowState Visible="True" X="110" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 416" ID="416" Icon="">
+     <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 417" ID="417" Icon="">
+     <WindowState Visible="True" X="60" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 418" ID="418" Icon="">
+     <WindowState Visible="True" X="110" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
    </Frame>
   </Frame>
   <Properties>
