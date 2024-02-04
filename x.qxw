@@ -3608,12 +3608,12 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="10000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>SquareChoppy</Algorithm>
-   <Width>20</Width>
-   <Height>20</Height>
+   <Width>50</Width>
+   <Height>50</Height>
    <Rotation>90</Rotation>
    <StartOffset>0</StartOffset>
    <IsRelative>1</IsRelative>
