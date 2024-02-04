@@ -1572,6 +1572,15 @@
    <FixtureVal ID="15">6,0,7,0,8,0</FixtureVal>
    <FixtureVal ID="16">6,0,7,0,8,0</FixtureVal>
   </Function>
+  <Function ID="95" Type="Scene" Name="SPOT Off" Path="Spot">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="37">0,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+  </Function>
   <Function ID="96" Type="Chaser" Name="Bee Dimmer Chase">
    <Speed FadeIn="0" FadeOut="0" Duration="500"/>
    <Direction>Forward</Direction>
@@ -9748,7 +9757,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Button 418" ID="418" Icon="">
+    <Button Caption="off" ID="418" Icon="">
      <WindowState Visible="False" X="110" Y="110" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -9757,11 +9766,31 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="95"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </Frame>
+   <SpeedDial Caption="Spot" ID="70">
+    <WindowState Visible="True" X="940" Y="355" Width="180" Height="65"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>112</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000">
+     <Input Universe="5" Channel="44"/>
+    </AbsoluteValue>
+    <Time>1162</Time>
+    <Key>Space</Key>
+    <Function FadeIn="0" FadeOut="0" Duration="6">222</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">218</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">220</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">217</Function>
+   </SpeedDial>
   </Frame>
   <Properties>
    <Size Width="1865" Height="1000"/>
