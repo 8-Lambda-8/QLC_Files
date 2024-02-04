@@ -8874,6 +8874,8 @@
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="13">11</Channel>
      <Channel Fixture="14">11</Channel>
+     <Channel Fixture="15">11</Channel>
+     <Channel Fixture="16">11</Channel>
     </Level>
     <Playback>
      <Function>4294967295</Function>
@@ -9390,8 +9392,8 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
       <Channel Fixture="18">0</Channel>
      </Level>
      <Playback>
@@ -9407,7 +9409,8 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
+     <Reset/>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="18">1</Channel>
      </Level>
@@ -9424,8 +9427,8 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
+     <Reset/>
       <Channel Fixture="18">2</Channel>
       <Channel Fixture="18">3</Channel>
       <Channel Fixture="18">4</Channel>
@@ -9443,7 +9446,8 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
+     <Reset/>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="18">5</Channel>
      </Level>
@@ -9460,7 +9464,8 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">0</Channel>
      </Level>
@@ -9477,7 +9482,8 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
+     <Reset/>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">1</Channel>
      </Level>
@@ -9494,7 +9500,8 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
+     <Reset/>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">2</Channel>
       <Channel Fixture="19">3</Channel>
@@ -9513,7 +9520,8 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
+     <Reset/>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">5</Channel>
      </Level>
