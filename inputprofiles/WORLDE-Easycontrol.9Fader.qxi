@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>5.0.0 Beta 3</Version>
+  <Author>Jakob</Author>
+ </Creator>
+ <Manufacturer>WORLDE</Manufacturer>
+ <Model>Easycontrol.9 Fader</Model>
+ <Type>MIDI</Type>
+ <Channel Number="1">
+  <Name>L</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="2">
+  <Name>R</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="3">
+  <Name>1</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="4">
+  <Name>2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="5">
+  <Name>3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="6">
+  <Name>4</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="7">
+  <Name>5</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="8">
+  <Name>6</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="9">
+  <Name>7</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="10">
+  <Name>8</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="11">
+  <Name>9</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="14">
+  <Name>P1</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="15">
+  <Name>P2</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="16">
+  <Name>P3</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>P4</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="18">
+  <Name>P5</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="19">
+  <Name>P6</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>P7</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="21">
+  <Name>P8</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="22">
+  <Name>P9</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="23">
+  <Name>B1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="24">
+  <Name>B2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="25">
+  <Name>B3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="26">
+  <Name>B4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="27">
+  <Name>B5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="28">
+  <Name>B6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="29">
+  <Name>B7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="30">
+  <Name>B8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="31">
+  <Name>B9</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="44">
+  <Name>B Record</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="45">
+  <Name>B Play</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="46">
+  <Name>B Stop</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="47">
+  <Name>B Prev</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="48">
+  <Name>B Next</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="49">
+  <Name>B Loop</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="60">
+  <Name>Crossfader</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="64">
+  <Name>Next Page</Name>
+  <Type>Next Page</Type>
+ </Channel>
+ <Channel Number="67">
+  <Name>Prev Page</Name>
+  <Type>Previous Page</Type>
+  <ExtraPress>True</ExtraPress>
+ </Channel>
+</InputProfile>
