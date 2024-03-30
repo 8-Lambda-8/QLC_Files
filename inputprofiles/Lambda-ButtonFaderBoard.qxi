@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1 GIT</Version>
+  <Author>Jakob</Author>
+ </Creator>
+ <Manufacturer>Lambda</Manufacturer>
+ <Model>ButtonFaderBoard</Model>
+ <Type>OSC</Type>
+ <Channel Number="877">
+  <Name>/button/17</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="2041">
+  <Name>/fader/2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="2583">
+  <Name>/button/25</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="4836">
+  <Name>/button/16</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="5744">
+  <Name>/fader/3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="7070">
+  <Name>/button/24</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="8319">
+  <Name>/button/15</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="9451">
+  <Name>/fader/0</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="10050">
+  <Name>/button/8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="10501">
+  <Name>/button/27</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="12790">
+  <Name>/button/14</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="13666">
+  <Name>/fader/1</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="14027">
+  <Name>/button/9</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="14476">
+  <Name>/button/26</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="16861">
+  <Name>/fader/6</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="17506">
+  <Name>/button/30</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="17737">
+  <Name>/button/13</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="19507">
+  <Name>/button/21</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="20564">
+  <Name>/fader/7</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="21696">
+  <Name>/button/12</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="21995">
+  <Name>/button/31</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="23994">
+  <Name>/button/20</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="25295">
+  <Name>/fader/4</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="26203">
+  <Name>/button/11</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="28449">
+  <Name>/button/23</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="29510">
+  <Name>/fader/5</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="30674">
+  <Name>/button/10</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="32424">
+  <Name>/button/22</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="34840">
+  <Name>/button/2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="39313">
+  <Name>/button/3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="43786">
+  <Name>/button/0</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="47747">
+  <Name>/button/1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="49275">
+  <Name>/button/29</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="52796">
+  <Name>/button/6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="53746">
+  <Name>/button/28</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="57269">
+  <Name>/button/7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="59923">
+  <Name>/button/19</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="60718">
+  <Name>/button/4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="64410">
+  <Name>/button/18</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="64679">
+  <Name>/button/5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <ColorTable>
+  <Color Value="0" Label="Black" RGB="#000000"/>
+  <Color Value="1" Label="White" RGB="#ffffff"/>
+  <Color Value="2" Label="Red" RGB="#ff0000"/>
+  <Color Value="3" Label="Orange" RGB="#ff8000"/>
+  <Color Value="4" Label="Yellow" RGB="#ffff00"/>
+  <Color Value="5" Label="Charteuse" RGB="#80ff00"/>
+  <Color Value="6" Label="GREEN" RGB="#00aa00"/>
+  <Color Value="7" Label="Spring Green" RGB="#00ff80"/>
+  <Color Value="8" Label="Cyan" RGB="#00ffff"/>
+  <Color Value="9" Label="Azure" RGB="#0080ff"/>
+  <Color Value="10" Label="BLUE" RGB="#0000ff"/>
+  <Color Value="11" Label="Indigo" RGB="#8000ff"/>
+  <Color Value="12" Label="Magenta" RGB="#ff00ff"/>
+  <Color Value="13" Label="Rose" RGB="#ff0080"/>
+
+  <Color Value="14" Label="Blink S White" RGB="#ffffff"/>
+  <Color Value="15" Label="Blink S Red" RGB="#ff0000"/>
+  <Color Value="16" Label="Blink S Orange" RGB="#ff8000"/>
+  <Color Value="17" Label="Blink S Yellow" RGB="#ffff00"/>
+  <Color Value="18" Label="Blink S Charteuse" RGB="#80ff00"/>
+  <Color Value="19" Label="Blink S GREEN" RGB="#00aa00"/>
+  <Color Value="20" Label="Blink S Spring Green" RGB="#00ff80"/>
+  <Color Value="21" Label="Blink S Cyan" RGB="#00ffff"/>
+  <Color Value="22" Label="Blink S Azure" RGB="#0080ff"/>
+  <Color Value="23" Label="Blink S BLUE" RGB="#0000ff"/>
+  <Color Value="24" Label="Blink S Indigo" RGB="#8000ff"/>
+  <Color Value="25" Label="Blink S Magenta" RGB="#ff00ff"/>
+  <Color Value="26" Label="Blink S Rose" RGB="#ff0080"/>
+
+  <Color Value="27" Label="Blink M White" RGB="#ffffff"/>
+  <Color Value="28" Label="Blink M Red" RGB="#ff0000"/>
+  <Color Value="29" Label="Blink M Orange" RGB="#ff8000"/>
+  <Color Value="30" Label="Blink M Yellow" RGB="#ffff00"/>
+  <Color Value="31" Label="Blink M Charteuse" RGB="#80ff00"/>
+  <Color Value="32" Label="Blink M GREEN" RGB="#00aa00"/>
+  <Color Value="33" Label="Blink M Spring Green" RGB="#00ff80"/>
+  <Color Value="34" Label="Blink M Cyan" RGB="#00ffff"/>
+  <Color Value="35" Label="Blink M Azure" RGB="#0080ff"/>
+  <Color Value="36" Label="Blink M BLUE" RGB="#0000ff"/>
+  <Color Value="37" Label="Blink M Indigo" RGB="#8000ff"/>
+  <Color Value="38" Label="Blink M Magenta" RGB="#ff00ff"/>
+  <Color Value="39" Label="Blink M Rose" RGB="#ff0080"/>
+
+  <Color Value="40" Label="Blink F White" RGB="#ffffff"/>
+  <Color Value="41" Label="Blink F Red" RGB="#ff0000"/>
+  <Color Value="42" Label="Blink F Orange" RGB="#ff8000"/>
+  <Color Value="43" Label="Blink F Yellow" RGB="#ffff00"/>
+  <Color Value="44" Label="Blink F Charteuse" RGB="#80ff00"/>
+  <Color Value="45" Label="Blink F GREEN" RGB="#00aa00"/>
+  <Color Value="46" Label="Blink F Spring Green" RGB="#00ff80"/>
+  <Color Value="47" Label="Blink F Cyan" RGB="#00ffff"/>
+  <Color Value="48" Label="Blink F Azure" RGB="#0080ff"/>
+  <Color Value="49" Label="Blink F BLUE" RGB="#0000ff"/>
+  <Color Value="50" Label="Blink F Indigo" RGB="#8000ff"/>
+  <Color Value="51" Label="Blink F Magenta" RGB="#ff00ff"/>
+  <Color Value="52" Label="Blink F Rose" RGB="#ff0080"/>
+ </ColorTable>
+ <MidiChannelTable>
+  <Channel Value="0" Label="1"/>
+ </MidiChannelTable>
+</InputProfile>
