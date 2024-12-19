@@ -3,7 +3,7 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.6</Version>
+  <Version>4.13.1</Version>
   <Author>Jakob Wasle</Author>
  </Creator>
  <Manufacturer>China</Manufacturer>
@@ -53,7 +53,7 @@
  </Mode>
  <Physical>
   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
-  <Dimensions Weight="0" Width="280" Height="330" Depth="230"/>
+  <Dimensions Weight="3.2" Width="280" Height="330" Depth="230"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
   <Focus Type="Fixed" PanMax="540" TiltMax="270"/>
   <Technical PowerConsumption="90" DmxConnector="3-pin"/>
