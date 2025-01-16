@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>Jakob Wasle</Author>
+ </Creator>
+ <Manufacturer>China</Manufacturer>
+ <Model>LED COB RGB</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Master dimmer" Default="255" Preset="IntensityDimmer"/>
+ <Channel Name="Red" Default="255" Preset="IntensityRed"/>
+ <Channel Name="Green" Default="255" Preset="IntensityGreen"/>
+ <Channel Name="Blue" Default="255" Preset="IntensityBlue"/>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="3" Preset="ShutterOpen">Shutter Open</Capability>
+  <Capability Min="4" Max="255" Preset="StrobeSlowToFast">Strobe - Slow to Fast</Capability>
+ </Channel>
+ <Channel Name="Function">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="50" Preset="Alias">No Function
+   <Alias Mode="7CH" Channel="Function Speed CH6" With="No function"/>
+  </Capability>
+  <Capability Min="51" Max="100" Preset="Alias">Color Presets
+   <Alias Mode="7CH" Channel="Function Speed CH6" With="Color Macros CH6"/>
+  </Capability>
+  <Capability Min="101" Max="150" Preset="ColorWheelIndex">Color Jump</Capability>
+  <Capability Min="151" Max="200" Preset="ColorWheelIndex">Color Fade</Capability>
+  <Capability Min="201" Max="250" Preset="ColorWheelIndex">Color Breath</Capability>
+  <Capability Min="251" Max="255" Preset="Alias">Sound Mode
+   <Alias Mode="7CH" Channel="Function Speed CH6" With="Color Macros CH6"/>
+  </Capability>
+ </Channel>
+ <Channel Name="Color Macros CH6">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="31" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+  <Capability Min="32" Max="63" Preset="ColorMacro" Res1="#00ff00">Green</Capability>
+  <Capability Min="64" Max="95" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
+  <Capability Min="96" Max="127" Preset="ColorMacro" Res1="#000000">OFF</Capability>
+  <Capability Min="128" Max="159" Preset="ColorMacro" Res1="#ffff00">Yellow</Capability>
+  <Capability Min="160" Max="191" Preset="ColorMacro" Res1="#ff00ff">Magenta</Capability>
+  <Capability Min="192" Max="223" Preset="ColorMacro" Res1="#00ffff">Cyan</Capability>
+  <Capability Min="224" Max="255" Preset="ColorMacro" Res1="#ffffff">White</Capability>
+ </Channel>
+ <Channel Name="Function Speed CH6">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255" Preset="SlowToFast">Function Speed</Capability>
+ </Channel>
+ <Channel Name="No function" Preset="NoFunction"/>
+ <Mode Name="7CH">
+  <Channel Number="0">Master dimmer</Channel>
+  <Channel Number="1">Red</Channel>
+  <Channel Number="2">Green</Channel>
+  <Channel Number="3">Blue</Channel>
+  <Channel Number="4">Strobe</Channel>
+  <Channel Number="5">Function</Channel>
+  <Channel Number="6" ActsOn="5">Function Speed CH6</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0.45" Width="150" Height="130" Depth="160"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="30" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
