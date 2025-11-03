@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.0 GIT</Version>
+  <Author>Lambda</Author>
+ </Creator>
+ <Manufacturer>Prolights</Manufacturer>
+ <Model>EclPannel TWCJR</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Dimmer" Preset="IntensityDimmer"/>
+ <Channel Name="Dimmer fine" Preset="IntensityDimmerFine"/>
+ <Channel Name="Hue" Preset="ColorWheel"/>
+ <Channel Name="Crossfade from CCT to Color" Preset="ColorWheel"/>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Red fine" Preset="IntensityRedFine"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Green fine" Preset="IntensityGreenFine"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="Blue fine" Preset="IntensityBlueFine"/>
+ <Channel Name="White" Preset="IntensityWhite"/>
+ <Channel Name="White fine" Preset="IntensityWhiteFine"/>
+ <Channel Name="CCT" Preset="ColorCTOMixer"/>
+ <Channel Name="Strobe" Default="255">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="30" Preset="LampOff">Closed</Capability>
+  <Capability Min="31" Max="100" Preset="StrobeSlowToFast">Strobe slow to fast</Capability>
+  <Capability Min="101" Max="130" Preset="LampOn">Open</Capability>
+  <Capability Min="131" Max="200" Preset="StrobeRandomSlowToFast">Random slow to fast</Capability>
+  <Capability Min="201" Max="255" Preset="LampOn">Open</Capability>
+ </Channel>
+ <Channel Name="Color Macro" Preset="ColorMacro"/>
+ <Channel Name="CTO On Colors" Preset="ColorCTOMixer"/>
+ <Channel Name="Dimmer fade">
+  <Group Byte="0">Speed</Group>
+ </Channel>
+ <Channel Name="FX Selection">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="FX Speed">
+  <Group Byte="0">Speed</Group>
+ </Channel>
+ <Channel Name="FX Fade">
+  <Group Byte="0">Speed</Group>
+ </Channel>
+ <Mode Name="17 CH">
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Dimmer fine</Channel>
+  <Channel Number="2">Strobe</Channel>
+  <Channel Number="3">Hue</Channel>
+  <Channel Number="4">Crossfade from CCT to Color</Channel>
+  <Channel Number="5">Red</Channel>
+  <Channel Number="6">Red fine</Channel>
+  <Channel Number="7">Green</Channel>
+  <Channel Number="8">Green fine</Channel>
+  <Channel Number="9">Blue</Channel>
+  <Channel Number="10">Blue fine</Channel>
+  <Channel Number="11">White</Channel>
+  <Channel Number="12">White fine</Channel>
+  <Channel Number="13">CCT</Channel>
+  <Channel Number="14">Color Macro</Channel>
+  <Channel Number="15">CTO On Colors</Channel>
+  <Channel Number="16">Dimmer fade</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>

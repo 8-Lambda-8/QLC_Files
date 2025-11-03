@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>Lambda</Author>
+ </Creator>
+ <Manufacturer>Futurelight</Manufacturer>
+ <Model>EYE-19 HCL ZOOM</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Pan" Preset="PositionPan"/>
+ <Channel Name="Pan fine" Preset="PositionPanFine"/>
+ <Channel Name="Tilt" Preset="PositionTilt"/>
+ <Channel Name="Tilt fine" Preset="PositionTiltFine"/>
+ <Channel Name="Pan/Tilt speed" Preset="SpeedPanTiltFastSlow"/>
+ <Channel Name="Pan Tilt Movement">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="15">Normal</Capability>
+  <Capability Min="16" Max="31">Blackout</Capability>
+  <Capability Min="32" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe" Default="255" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Dimmer" Default="255" Preset="IntensityDimmer"/>
+ <Channel Name="Dimmer fine" Default="255" Preset="IntensityDimmerFine"/>
+ <Channel Name="Color Effect">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="Color Settiings" Preset="ColorMacro"/>
+ <Channel Name="Color Settings 2" Preset="ColorMacro"/>
+ <Channel Name="Red 1" Preset="IntensityRed"/>
+ <Channel Name="Green 1" Preset="IntensityGreen"/>
+ <Channel Name="Blue 1" Preset="IntensityBlue"/>
+ <Channel Name="Lime 1" Preset="IntensityLime"/>
+ <Channel Name="Amber 1" Preset="IntensityAmber"/>
+ <Channel Name="Cyan 1" Preset="IntensityCyan"/>
+ <Channel Name="Red 2" Preset="IntensityRed"/>
+ <Channel Name="Green 2" Preset="IntensityGreen"/>
+ <Channel Name="Blue 2" Preset="IntensityBlue"/>
+ <Channel Name="Lime 2" Preset="IntensityLime"/>
+ <Channel Name="Amber 2" Preset="IntensityAmber"/>
+ <Channel Name="Cyan 2" Preset="IntensityCyan"/>
+ <Channel Name="Reset, Display">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="7">No Function</Capability>
+  <Capability Min="8" Max="15">Reset All</Capability>
+  <Capability Min="16" Max="23">Reset Pan/Tilt</Capability>
+  <Capability Min="24" Max="47">No Function</Capability>
+  <Capability Min="48" Max="55">Reset Other</Capability>
+  <Capability Min="56" Max="63">Display Off</Capability>
+  <Capability Min="64" Max="71">Display On</Capability>
+  <Capability Min="72" Max="87">No Function</Capability>
+  <Capability Min="88" Max="95">Standby</Capability>
+  <Capability Min="96" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Funktion Shutter, Strobe">
+  <Group Byte="0">Speed</Group>
+ </Channel>
+ <Channel Name="Zoom" Preset="BeamZoomBigSmall"/>
+ <Mode Name="Standard">
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Pan fine</Channel>
+  <Channel Number="2">Tilt</Channel>
+  <Channel Number="3">Tilt fine</Channel>
+  <Channel Number="4">Pan/Tilt speed</Channel>
+  <Channel Number="5">Funktion Shutter, Strobe</Channel>
+  <Channel Number="6">Strobe</Channel>
+  <Channel Number="7">Dimmer</Channel>
+  <Channel Number="8">Dimmer fine</Channel>
+  <Channel Number="9">Color Effect</Channel>
+  <Channel Number="10">Color Settiings</Channel>
+  <Channel Number="11">Color Settings 2</Channel>
+  <Channel Number="12">Red 1</Channel>
+  <Channel Number="13">Green 1</Channel>
+  <Channel Number="14">Blue 1</Channel>
+  <Channel Number="15">Lime 1</Channel>
+  <Channel Number="16">Amber 1</Channel>
+  <Channel Number="17">Cyan 1</Channel>
+  <Channel Number="18">Zoom</Channel>
+  <Channel Number="19">Reset, Display</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="540" TiltMax="265"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>

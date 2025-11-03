@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>jakob</Author>
+ </Creator>
+ <Manufacturer>Showtec</Manufacturer>
+ <Model>Xpression 2000W</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Pan" Preset="PositionPan"/>
+ <Channel Name="Pan fine" Preset="PositionPanFine"/>
+ <Channel Name="Tilt" Preset="PositionTilt"/>
+ <Channel Name="Tilt fine" Preset="PositionTiltFine"/>
+ <Channel Name="Tilt infinite">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">Tilt infinite</Capability>
+ </Channel>
+ <Channel Name="Pan/Tilt speed" Preset="SpeedPanTiltFastSlow"/>
+ <Channel Name="Dimmer" Default="255" Preset="IntensityDimmer"/>
+ <Channel Name="Strobe" Default="255">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="4" Preset="LampOff">No Function</Capability>
+  <Capability Min="5" Max="9" Preset="ShutterOpen">Open</Capability>
+  <Capability Min="10" Max="89" Preset="StrobeSlowToFast">Synchronized strobe, from low to high frequency</Capability>
+  <Capability Min="90" Max="169" Preset="StrobeSlowToFast">Pulse strobe, from low to high frequency</Capability>
+  <Capability Min="170" Max="250" Preset="StrobeRandomSlowToFast">Random strobe, from low to high frequency</Capability>
+  <Capability Min="251" Max="255" Preset="ShutterOpen">Open</Capability>
+ </Channel>
+ <Channel Name="Color macro">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="1">No function</Capability>
+  <Capability Min="2" Max="4" Preset="ColorMacro" Res1="#ffffff">White</Capability>
+  <Capability Min="5" Max="9" Preset="ColorMacro" Res1="#ff0000">Color 1 (red)</Capability>
+  <Capability Min="10" Max="14" Preset="ColorMacro" Res1="#ffff00">Color 2 (yellow)</Capability>
+  <Capability Min="15" Max="19" Preset="ColorMacro" Res1="#00aa00">Color 3 (green)</Capability>
+  <Capability Min="20" Max="24" Preset="ColorMacro" Res1="#aa5500">Color 4 (orange)</Capability>
+  <Capability Min="25" Max="29" Preset="ColorMacro" Res1="#ff00ff">Color 5 (magenta)</Capability>
+  <Capability Min="30" Max="34" Preset="ColorMacro" Res1="#00ffff">Color 6 (cyan)</Capability>
+  <Capability Min="35" Max="39" Preset="ColorMacro" Res1="#0000ff">Color 7 (blue)</Capability>
+  <Capability Min="40" Max="44" Preset="ColorMacro" Res1="#ba6fc1">Color 8 (rose red)</Capability>
+  <Capability Min="45" Max="49" Preset="ColorMacro" Res1="#55ff7f">Color 9 (lime)</Capability>
+  <Capability Min="50" Max="54" Preset="ColorMacro" Res1="#f8bc9f">Color 10 (CTO)</Capability>
+  <Capability Min="55" Max="59" Preset="ColorMacro" Res1="#97cbff">Color 11 (CTB)</Capability>
+  <Capability Min="60" Max="64" Preset="ColorMacro" Res1="#b85c75">Color 12 (purple)</Capability>
+  <Capability Min="65" Max="69" Preset="ColorMacro" Res1="#3901de">Color 13 (congo blue)</Capability>
+  <Capability Min="70" Max="255" Preset="ColorMacro">Reserved</Capability>
+ </Channel>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Red fine" Preset="IntensityRedFine"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Green fine" Preset="IntensityGreenFine"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="Blue fine" Preset="IntensityBlueFine"/>
+ <Channel Name="White" Preset="IntensityWhite"/>
+ <Channel Name="White fine" Preset="IntensityWhiteFine"/>
+ <Channel Name="CTC mixer" Preset="ColorCTCMixer"/>
+ <Channel Name="Zoom" Preset="BeamZoomBigSmall"/>
+ <Channel Name="Zoom fine" Preset="BeamZoomFine"/>
+ <Channel Name="Controll">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="15">No function</Capability>
+  <Capability Min="16" Max="23">Pan invert</Capability>
+  <Capability Min="24" Max="31">Pan normal</Capability>
+  <Capability Min="32" Max="39">Tilt invert</Capability>
+  <Capability Min="40" Max="47">Tilt normal</Capability>
+  <Capability Min="48" Max="55">No Function</Capability>
+  <Capability Min="56" Max="63">Dimmer curve Linear</Capability>
+  <Capability Min="64" Max="71">Dimmer curve Square</Capability>
+  <Capability Min="72" Max="79">Dimmer curve inv Square</Capability>
+  <Capability Min="80" Max="87">No Function</Capability>
+  <Capability Min="88" Max="95">PWM 1200 Hz</Capability>
+  <Capability Min="96" Max="103">PWM 2000 Hz</Capability>
+  <Capability Min="104" Max="111">PWM 4000 Hz</Capability>
+  <Capability Min="112" Max="119">PWM 6000 Hz</Capability>
+  <Capability Min="120" Max="127">PWM 15000 Hz</Capability>
+  <Capability Min="128" Max="135">No Function</Capability>
+  <Capability Min="136" Max="143">Color Mixing RGBW</Capability>
+  <Capability Min="144" Max="151">Color Mixing CMY</Capability>
+  <Capability Min="152" Max="159">No Function</Capability>
+  <Capability Min="160" Max="167">Tilt Range 280°</Capability>
+  <Capability Min="168" Max="175">Tilt Range 360°</Capability>
+  <Capability Min="176" Max="183">No Function</Capability>
+  <Capability Min="184" Max="191">No Function</Capability>
+  <Capability Min="192" Max="199">Blackout during pan/tilt movement on</Capability>
+  <Capability Min="200" Max="207">Blackout during pan/tilt movement off</Capability>
+  <Capability Min="208" Max="215">Blackout during zoom on</Capability>
+  <Capability Min="216" Max="223">Blackout during zoom off</Capability>
+  <Capability Min="224" Max="231">No Function</Capability>
+  <Capability Min="232" Max="239" Preset="ResetPanTilt">Pan Tilt Reset</Capability>
+  <Capability Min="240" Max="247" Preset="ResetZoom">Zoom Reset</Capability>
+  <Capability Min="248" Max="255" Preset="ResetAll">Reset All</Capability>
+ </Channel>
+ <Mode Name="21">
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Pan fine</Channel>
+  <Channel Number="2">Tilt</Channel>
+  <Channel Number="3">Tilt fine</Channel>
+  <Channel Number="4">Tilt infinite</Channel>
+  <Channel Number="5">Pan/Tilt speed</Channel>
+  <Channel Number="6">Dimmer</Channel>
+  <Channel Number="7">Strobe</Channel>
+  <Channel Number="8">Color macro</Channel>
+  <Channel Number="9">Red</Channel>
+  <Channel Number="10">Red fine</Channel>
+  <Channel Number="11">Green</Channel>
+  <Channel Number="12">Green fine</Channel>
+  <Channel Number="13">Blue</Channel>
+  <Channel Number="14">Blue fine</Channel>
+  <Channel Number="15">White</Channel>
+  <Channel Number="16">White fine</Channel>
+  <Channel Number="17">CTC mixer</Channel>
+  <Channel Number="18">Zoom</Channel>
+  <Channel Number="19">Zoom fine</Channel>
+  <Channel Number="20">Controll</Channel>
+ </Mode>
+ <Mode Name="13">
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Tilt</Channel>
+  <Channel Number="2">Tilt infinite</Channel>
+  <Channel Number="3">Dimmer</Channel>
+  <Channel Number="4">Strobe</Channel>
+  <Channel Number="5">Color macro</Channel>
+  <Channel Number="6">Red</Channel>
+  <Channel Number="7">Green</Channel>
+  <Channel Number="8">Blue</Channel>
+  <Channel Number="9">White</Channel>
+  <Channel Number="10">CTC mixer</Channel>
+  <Channel Number="11">Zoom</Channel>
+  <Channel Number="12">Controll</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="3166" ColourTemperature="0"/>
+  <Dimensions Weight="9.8" Width="310" Height="409" Depth="205"/>
+  <Lens Name="Other" DegreesMin="3.8" DegreesMax="35"/>
+  <Focus Type="Fixed" PanMax="540" TiltMax="280"/>
+  <Technical PowerConsumption="282" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
